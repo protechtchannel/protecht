@@ -1,53 +1,63 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles_css/Services.css";
 import "../styles_css/Empowering.css";
-import ourbenefits1 from "../images/ourbenefits1.png";
-import ourbenefits2 from "../images/ourbenefits2.png";
-import ourbenefits3 from "../images/ourbenefits3.png";
-import ourbenefits4 from "../images/ourbenefits4.png";
+import Shadows from "../components/Shadows";
+
 const Empowering = () => {
+  // Use hash from URL for scrolling to specific sections
+  useEffect(() => {
+    const hash = window.location.hash; // Get hash from URL
+    if (hash) {
+      const element = document.querySelector(hash); // Find the element with the corresponding ID
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" }); // Smooth scroll to the element
+      }
+    }
+  }, []);
+
   return (
     <div>
       <div className="hero">
-        <h3 className="services-heading">Services</h3>
+        <Shadows />
+        <h3 className="services-heading">Our Benefits</h3>
         <h1 className="main-heading">
-          Your Creative Journey Starts Here. Our Comprehensive Services
+          Our benefits cater to your convenience.
         </h1>
         <p className="subheading">
-          Where Potential Meets Possibility: Cultivating Growth Through
-          Innovative Solutions
+          Innovating without limits, empowering your vision
         </p>
-        <button className="cta-button">
-          Get Started <span className="arrow">→</span>
-        </button>
       </div>
 
-      <section class="smart-management-container">
-        <div class="smart-management-left">
-          <div class="icon-container">
+      {/* Section 1 */}
+      <section
+        id="discovering-smart-management"
+        className="smart-management-container"
+      >
+        <div className="smart-management-left">
+          <div className="icon-container">
             <img
-              src="https://protecht.ch/wp-content/uploads/2024/11/5f399f13-170e-413b-b328-a0e1dcfba5da.png"
+              src={require("../images/empowering1.png")}
               alt="Gear Icon"
-              class="smart-management-icon"
+              className="smart-management-icon"
             />
           </div>
-
-          <h2 class="smart-management-title">Discovering Smart Management</h2>
-          <p class="smart-management-description">
+          <h2 className="smart-management-title">
+            Discovering Smart Management
+          </h2>
+          <p className="smart-management-description">
             Stay on top of your tasks and stay informed about what's happening.
           </p>
         </div>
-
         <div
-          class="smart-management-right"
+          className="smart-management-right"
           style={{
-            backgroundImage: `url(${ourbenefits1})`, // Use the imported image
+            backgroundImage: `url(${require("../images/ourbenefits1.png")})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
-            backgroundSize: "cover", // Optional for better display
+            backgroundSize: "cover",
           }}
         >
-          <div class="content-box">
+          <div className="content-box">
             <p>
               Empower your organization with advanced management tools designed
               to enhance visibility, control, and decision-making.
@@ -70,35 +80,37 @@ const Empowering = () => {
         </div>
       </section>
 
-      <section class="smart-management-container">
-        <div class="smart-management-left">
-          <div class="icon-container">
+      {/* Section 2 */}
+      <section
+        id="customized-software-development"
+        className="smart-management-container"
+      >
+        <div className="smart-management-left">
+          <div className="icon-container">
             <img
-              src="https://protecht.ch/wp-content/uploads/2024/11/5f399f13-170e-413b-b328-a0e1dcfba5da.png"
-              alt="Code Icon"
-              class="smart-management-icon"
+              src={require("../images/empowering2.png")}
+              alt="Custom Software Icon"
+              className="smart-management-icon"
             />
           </div>
-
-          <h2 class="smart-management-title">
+          <h2 className="smart-management-title">
             Customized Software Development
           </h2>
-          <p class="smart-management-description">
+          <p className="smart-management-description">
             Custom software development is the process of conceptualizing,
             designing.
           </p>
         </div>
-
         <div
-          class="smart-management-right"
+          className="smart-management-right"
           style={{
-            backgroundImage: `url(${ourbenefits2})`, // Use the imported image
+            backgroundImage: `url(${require("../images/ourbenefits2.png")})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
-            backgroundSize: "cover", // Optional for better display
+            backgroundSize: "cover",
           }}
         >
-          <div class="content-box">
+          <div className="content-box">
             <p>
               Experience the power of software that’s built precisely to meet
               your business needs.
@@ -122,33 +134,37 @@ const Empowering = () => {
         </div>
       </section>
 
-      <section class="smart-management-container">
-        <div class="smart-management-left">
-          <div class="icon-container">
+      {/* Section 3 */}
+      <section
+        id="effortless-rapid-communication"
+        className="smart-management-container"
+      >
+        <div className="smart-management-left">
+          <div className="icon-container">
             <img
-              src="https://protecht.ch/wp-content/uploads/2024/11/5f399f13-170e-413b-b328-a0e1dcfba5da.png"
+              src={require("../images/empowering3.png")}
               alt="Chat Icon"
-              class="smart-management-icon"
+              className="smart-management-icon"
             />
           </div>
-
-          <h2 class="smart-management-title">Effortless Rapid Communication</h2>
-          <p class="smart-management-description">
+          <h2 className="smart-management-title">
+            Effortless Rapid Communication
+          </h2>
+          <p className="smart-management-description">
             Effortlessly manage your task lists and stay connected with
             real-time updates.
           </p>
         </div>
-
         <div
-          class="smart-management-right"
+          className="smart-management-right"
           style={{
-            backgroundImage: `url(${ourbenefits3})`, // Use the imported image
+            backgroundImage: `url(${require("../images/ourbenefits3.png")})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
-            backgroundSize: "cover", // Optional for better display
+            backgroundSize: "cover",
           }}
         >
-          <div class="content-box">
+          <div className="content-box">
             <p>
               Enhance team productivity and keep everyone connected with our
               rapid communication tools.
@@ -171,35 +187,39 @@ const Empowering = () => {
           </div>
         </div>
       </section>
-      <section class="smart-management-container">
-        <div class="smart-management-left">
-          <div class="icon-container">
+
+      {/* Section 4 */}
+      <section
+        style={{ paddingBottom: "80px" }}
+        id="adaptive-capabilities"
+        className="smart-management-container"
+      >
+        <div className="smart-management-left">
+          <div className="icon-container">
             <img
-              src="ourbenefits4.png"
+              src={require("../images/empowering4.png")}
               alt="Clipboard Icon"
-              class="smart-management-icon"
+              className="smart-management-icon"
             />
           </div>
-
-          <h2 class="smart-management-title">
+          <h2 className="smart-management-title">
             Stay Ahead with Adaptive Capabilities
           </h2>
-          <p class="smart-management-description">
+          <p className="smart-management-description">
             Stay organized with your task lists and remain updated on the latest
             development.
           </p>
         </div>
-
         <div
-          class="smart-management-right"
+          className="smart-management-right"
           style={{
-            backgroundImage: `url(${ourbenefits4})`, // Use the imported image
+            backgroundImage: `url(${require("../images/ourbenefits4.png")})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
-            backgroundSize: "cover", // Optional for better display
+            backgroundSize: "cover",
           }}
         >
-          <div class="content-box">
+          <div className="content-box">
             <p>
               In a constantly evolving market, adaptability is key to staying
               competitive.

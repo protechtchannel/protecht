@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "servicesHeading": "Über uns",
+    "mainHeading": "Innovation ohne Grenzen",
+    "subHeading": "Innovationen ohne Grenzen, Ihre Vision stärken",
+    "ctaButton": "Loslegen"
+  },
+  "about": {
+    "heading": "Über uns",
+    "text1": "Protecht wurde in Zug, Schweiz, gegründet, um die internationale Zusammenarbeit zwischen der Schweiz, Deutschland, Österreich und Kosovo zu erleichtern. Mit Büros in Zug, Zürich, Wien, Frankfurt und Prishtina ist Protecht strategisch positioniert, um Innovationen in der DACH- und Balkanregion zu fördern.",
+    "text2": "Protecht spezialisiert sich auf neue Technologien wie KI-Lösungen und -Infrastrukturen, Blockchain und Cloud-Lösungen. Unsere Mission ist es, Unternehmen dabei zu unterstützen, fortschrittliche Technologie für nachhaltiges Wachstum und digitale Transformation zu nutzen."
+  },
+  "profiles": {
+    "muhamer": {
+      "name": "Muhamer Nuridini",
+      "title": "CEO",
+      "description1": "Als Gründer und CEO von Protecht führt Muhamer Nuridini mit über 16 Jahren Erfahrung in IT, Softwareentwicklung und Systemadministration.",
+      "description2": "Er treibt die Mission von Protecht voran, Unternehmen durch digitale Transformation zu stärken, mit Lösungen in benutzerdefinierten Anwendungen, Blockchain, KI, Cloud, Fintech und ICT-Beratung.",
+      "description3": "Fokussiert auf maßgeschneiderte Strategien, fördert Muhamer langfristige Kundenpartnerschaften, die auf Vertrauen und Innovation basieren, und liefert die Werkzeuge und Einblicke, die für nachhaltiges Wachstum und digitale Exzellenz erforderlich sind."
+    },
+    "bujar": {
+      "name": "Bujar Demolli",
+      "title": "Berater des Vorstands bei Protecht",
+      "description1": "Mit über 20 Jahren Erfahrung bringt Bujar Demolli visionäre Einblicke und einen strategischen Ansatz in seine Rolle als Berater des Vorstands bei Protecht ein.",
+      "description2": "Er ist bekannt für seine Expertise in technologiegetriebenen Initiativen und hat ein tiefes Verständnis der DACH-Region sowie eine nachgewiesene Erfolgsbilanz in B2B-Märkten.",
+      "description3": "Als Berater spielt Bujar eine Schlüsselrolle bei der Leitung der Expansion von Protecht und stellt sicher, dass das Unternehmen an der Spitze der digitalen Transformation und wertorientierten Strategien für seine Kunden bleibt."
+    }
+  },
+
+  "footer": {
+    "innovative": "Innovative Projektideen?",
+    "description": "Wir bringen Ihre kühnsten Ideen mit Kreativität, Fachwissen und strategischem Einblick zum Leben.",
+    "newsletterTitle": "Newsletter",
+    "newsletterDescription": "Abonnieren Sie unseren Newsletter, um die neuesten Protecht-News zu erhalten.",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "subscribeButton": "Abonnieren",
+    "successMessage": "Sie haben sich erfolgreich angemeldet!",
+    "errors": {
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "saveFailed": "Das Speichern der E-Mail ist fehlgeschlagen. Bitte versuchen Sie es erneut."
+    },
+    "tagline": "Smarter, Einfacher, Schneller",
+    "companyTitle": "Unternehmen",
+    "legalTitle": "Rechtliches",
+    "rights": "Alle Rechte vorbehalten.",
+    "links": {
+      "about": "Über uns",
+      "careers": "Karriere",
+      "news": "Nachrichten",
+      "contact": "Kontakt",
+      "terms": "AGB",
+      "privacy": "Datenschutz",
+      "impressum": "Impressum"
+    }
+  }
+}

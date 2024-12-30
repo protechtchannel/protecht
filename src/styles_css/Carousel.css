@@ -1,0 +1,111 @@
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  cursor: grab;
+  user-select: none;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  box-sizing: border-box;
+}
+.parent-carousel {
+  /* Ensure it doesn't exceed the screen width */
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.carousel::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.carousel:active {
+  cursor: grabbing;
+}
+
+.carousel-item {
+  width: 220px; /* Adjust the width as needed */
+  margin-right: 40px; /* Space between images */
+  flex-shrink: 0;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  pointer-events: none; /* Prevent image interference with dragging */
+}
+.carousel-item a {
+  display: block; /* Make the <a> tag block-level */
+  width: 100%; /* Ensure it matches the image width */
+  height: 100%; /* Ensure it matches the image height */
+  text-decoration: none; /* Remove any link decoration */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  pointer-events: none; /* Prevent interference with dragging */
+}
+
+.carousel-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.carousel-header {
+  background: linear-gradient(
+    180deg,
+    #13151f 0%,
+    /* Dark color */ #a6a6a6 80%,
+    /* Middle gray */ #e4e4e4 100% /* Light color */
+  ) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  display: inline-block; /* Ensures the text doesn't overflow */
+  font-size: 35px;
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 750px) {
+  .carousel-header {
+    font-size: 35px;
+    text-align: center;
+
+    padding: 50px 0px;
+    width: 90%;
+
+    display: flex;
+  }
+}
+@media (max-width: 550px) {
+  .parent-carousel {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 530px) {
+  .parent-carousel {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .parent-carousel {
+    margin-top: 120px;
+  }
+}
+@media (max-width: 440px) {
+  .parent-carousel {
+    margin-top: 200px;
+  }
+}

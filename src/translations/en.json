@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "servicesHeading": "About us",
+    "mainHeading": "Innovating Beyond Boundaries",
+    "subHeading": "Innovating without limits, empowering your vision",
+    "ctaButton": "Get Started"
+  },
+  "about": {
+    "heading": "About us",
+    "text1": "Protecht was created in Zug, Switzerland, to facilitate international collaboration among Switzerland, Germany, Austria, and Kosovo. With offices in Zug, Zurich, Vienna, Frankfurt, and Prishtina, Protecht is strategically positioned to foster innovation across the DACH and Balkan regions.",
+    "text2": "Specializing in emerging technologies, Protecht focuses on AI solutions and infrastructure, blockchain, and cloud solutions. Our mission is to empower businesses to harness advanced technology for sustainable growth and digital transformation."
+  },
+  "profiles": {
+    "muhamer": {
+      "name": "Muhamer Nuridini",
+
+      "title": "CEO",
+      "description1": "As Founder and CEO of Protecht, Muhamer Nuridini leads with 16+ years of expertise in IT, software development, and system administration.",
+      "description2": "He drives Protecht’s mission to empower businesses through digital transformation with solutions in Custom Applications, Blockchain, AI, Cloud, Fintech, and ICT Consulting.",
+      "description3": "Focused on delivering tailored strategies, Muhamer fosters long-term client partnerships built on trust and innovation, providing the tools and insights necessary for sustained growth and digital excellence."
+    },
+    "bujar": {
+      "name": "Bujar Demolli",
+      "title": "Advisor to the Board at Protecht",
+      "description1": "With over 20 years of experience, Bujar Demolli brings visionary insights and a strategic mindset to his role as Advisor to the Board at Protecht.",
+      "description2": "Renowned for his expertise in technology-driven initiatives, Bujar has a deep understanding of the DACH region and a proven track record in B2B markets.",
+      "description3": "As an advisor, Bujar plays a key role in guiding Protecht’s expansion, ensuring the company remains at the forefront of digital transformation and value-driven strategies for its clients."
+    }
+  },
+  "footer": {
+    "innovative": "Innovative Project Ideas?",
+    "description": "We bring your boldest ideas to life with creativity, expertise, and strategic insight.",
+    "newsletterTitle": "Newsletter",
+    "newsletterDescription": "Subscribe to our newsletter to get the latest Protecht news",
+    "emailPlaceholder": "Enter your email",
+    "subscribeButton": "Subscribe",
+    "successMessage": "You have successfully subscribed!",
+    "errors": {
+      "invalidEmail": "Please enter a valid email address.",
+      "saveFailed": "Failed to save email. Please try again."
+    },
+    "tagline": "Smarter, Simpler, Faster",
+    "companyTitle": "Company",
+    "legalTitle": "Legal",
+    "rights": "All rights reserved.",
+    "links": {
+      "about": "About us",
+      "careers": "Careers",
+      "news": "News",
+      "contact": "Contact",
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "impressum": "Imprint"
+    }
+  }
+}

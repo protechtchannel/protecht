@@ -1,12 +1,20 @@
 .hero {
   text-align: center;
-  padding: 10px 20px 40px;
+  padding: 120px 20px 60px 40px;
   background: linear-gradient(to bottom right, #000, #1a1a3b);
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.hero .services-heading,
+.hero .main-heading,
+.hero .subheading,
+.hero .cta-button {
+  z-index: 2; /* Place above the shadow */
 }
 
 .services-heading {
@@ -18,45 +26,51 @@
 }
 
 .main-heading {
-  font-size: 48px;
-  font-weight: 400;
+  font-size: 50px;
+  font-weight: 500;
   width: 90%;
   margin: 20px 0;
 }
 
 .subheading {
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 400;
   margin-bottom: 30px;
   color: #ddd;
 }
 
 .cta-button {
-  width: 160px;
-
+  width: 170px;
+  justify-content: space-between;
   color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 500;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 550;
   border: none;
   border-radius: 40px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+
   background: linear-gradient(
     90deg,
     #4086de 47%,
     /* Light blue */ #163351 100% /* Dark blue */
   ) !important;
 }
-
-.cta-button .arrow {
-  margin-left: 10px;
-  font-size: 18px;
-  font-weight: bold;
+.button-text {
+  margin-right: 10px; /* Spacing between text and icon */
+  font-size: 17px;
 }
-
+.button-icon {
+  display: flex;
+}
+.button-icon img {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
 .cta-button:hover {
   background: linear-gradient(
     90deg,
@@ -70,7 +84,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Satoshi-Regular", sans-serif;
+  font-family: "Satoshi", sans-serif;
 }
 
 .services-content {
@@ -111,7 +125,7 @@
   width: 70%;
   margin-left: 30px;
   font-size: 2.5rem;
-
+  font-weight: 520;
   align-items: center;
 }
 
@@ -124,6 +138,8 @@
 
 .description {
   width: 40%;
+  color: #475467;
+  line-height: 1.4;
 }
 
 .services-images {
@@ -159,6 +175,24 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
 }
 
+.cta-button {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Optional: Ensures the color matches the parent styling */
+}
+@media (max-width: 1050px) {
+  .description {
+    width: 70%;
+  }
+  .services-number {
+    flex-direction: column;
+    margin: 0;
+    width: 50%;
+  }
+
+  .services-text h2 {
+    margin: 0;
+  }
+}
 @media (max-width: 768px) {
   .services-images {
     display: flex;

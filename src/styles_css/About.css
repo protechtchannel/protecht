@@ -1,0 +1,239 @@
+/* Wrapper */
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.colors {
+  color: #7e8492;
+  line-height: 1.4;
+}
+
+/* Main Container */
+.profile-container {
+  display: flex;
+
+  width: 100%;
+  background-color: #f3f4f6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+/* Left Side - Image */
+.profile-image-container {
+  position: relative;
+  width: 40%;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 0px 0px 0px;
+}
+
+.blue-overlay {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 5%;
+  border-radius: 0px 20px 20px 0;
+  background-color: #3b82f6; /* Blue overlay */
+}
+
+/* Right Side - Content */
+.profile-content-container {
+  position: relative;
+  width: 60%;
+  padding: 30px 0px;
+  background-color: #f3f4f6;
+}
+.profile-content-container1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.profile-content-container2 {
+  background-color: #3b82f6;
+  z-index: 100;
+  height: 85px;
+  width: 30px;
+}
+
+.profile-content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+/* Name Box */
+.name-box {
+  position: absolute;
+  top: 2.7rem;
+  background-color: #ffffff;
+  padding: 0.5rem 1.5rem;
+  z-index: 10;
+  height: 85px;
+  width: 240px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-name {
+  font-size: 25px;
+  color: #3b82f6;
+  font-weight: bold;
+  margin: 0;
+  height: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+/* Title */
+.profile-title {
+  font-size: 1.5rem;
+  color: #7e8492;
+  margin-bottom: 2rem;
+}
+
+/* Descriptions */
+.profile-description {
+  color: #555;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.mobile-view .profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mobile-view .profile-image-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+/* Main container */
+.about-container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center; /* Centers the text */
+  font-family: Arial, sans-serif;
+  color: #555;
+}
+
+/* Heading styling */
+.about-heading p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000; /* Black for heading */
+  margin-bottom: 1.5rem;
+}
+
+/* Paragraph styling */
+.about-text p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #667085; /* Slight gray for body text */
+}
+
+/* Main Outer Container */
+.outer-container {
+  position: relative;
+  width: 90%; /* Adjust as needed */
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Top Blue Line */
+.top-blue-line2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 100;
+  background-color: #3b82f6; /* Blue color */
+  border-radius: 20px 20px 0 0;
+}
+
+/* Image Container */
+.image-container2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Image Styling */
+.profile-image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Bottom-left Blue Div */
+.bottom-left-blue-bar {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  height: 20px;
+  width: 100px;
+  background-color: #3b82f6; /* Blue color */
+}
+
+/* Main container styling */
+.mobile-profile-container {
+  background-color: #f8f8f8;
+  border-radius: 0px 0px 20px 20px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #555;
+  padding: 20px;
+}
+
+/* Heading - Name */
+.mobile-profile-name {
+  font-weight: bold;
+  color: #3b82f6; /* Blue color */
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* Title - CEO */
+.mobile-profile-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #7e8492; /* Dark gray for CEO */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+/* Paragraph Content */
+.mobile-profile-description p {
+  font-size: 16px;
+  line-height: 1.8; /* Improved readability */
+  margin-bottom: 15px; /* Space between paragraphs */
+  color: #7e8492;
+}
+
+@media (max-width: 768px) {
+  .about-text p {
+    font-size: 16px;
+  }
+  .about-container {
+    width: 90%;
+    padding: 0;
+  }
+}

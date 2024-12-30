@@ -1,5 +1,6 @@
 .footer-container {
   padding: 40px;
+  padding-top: 80px;
   width: 100%;
   background-color: #000;
   color: #fff;
@@ -116,11 +117,11 @@ h4 {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  padding-bottom: 40px;
 }
 
 .gradient1 {
   height: 20px;
-  margin-top: 40px;
   background: linear-gradient(
     90deg,
     #4086de 0%,
@@ -135,7 +136,8 @@ h4 {
 }
 .first-section p {
   color: #7e8492;
-  width: 60%;
+  width: 65%;
+  line-height: 1.4;
 }
 .footer-newsletter {
   width: 100%;
@@ -175,7 +177,7 @@ p {
   display: inline-block;
   overflow-wrap: break-word;
   hyphens: auto;
-  font-size: 74px;
+  font-size: 64px;
   font-weight: 700;
   color: #c4c4c400;
 }
@@ -195,9 +197,17 @@ p {
 }
 
 @media (max-width: 850px) {
+  .footer-container {
+    padding: 0;
+    padding-top: 50px;
+  }
+  .first-section .innovative {
+    text-align: center;
+  }
   .first-section1 {
     flex-direction: column;
     align-items: flex-start;
+    width: 90%;
   }
 
   .first-section p,
@@ -210,10 +220,18 @@ p {
     margin-top: 40px;
     flex-direction: row;
     align-items: flex-start;
+    width: 90%;
+  }
+  .rights {
+    width: 90%;
   }
 }
 
 @media (max-width: 768px) {
+  .icon {
+    width: 25px !important;
+    height: 23px !important;
+  }
   .footer-newsletter {
     flex-direction: column;
     align-items: flex-start;
@@ -246,5 +264,17 @@ p {
   }
   .footer-newsletter input[type="email"] {
     width: 100%;
+  }
+  .innovative {
+    font-size: 65px;
+  }
+  .instagram {
+    width: 30px !important;
+    height: 28px !important;
+    margin-right: 10px;
+  }
+  .facebook {
+    width: 24px !important;
+    height: 14px;
   }
 }

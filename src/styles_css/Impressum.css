@@ -1,0 +1,24 @@
+.bigcont {
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  /* margin: 0 auto; */
+  margin: 40px 0px;
+}
+.bigcont img {
+  width: 20% !important;
+}
+.close-button:hover {
+  color: white;
+}
+@media (max-width: 950px) {
+  .bigcont {
+    height: 30vh;
+  }
+  .bigcont img {
+    width: 50% !important;
+  }
+}

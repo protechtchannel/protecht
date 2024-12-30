@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles_css/Services.css";
-
+import rightarrow from "../images/rightarrow.png";
+import { useLocation } from "react-router-dom";
+import Shadows from "../components/Shadows";
 const Services = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [hash]);
   return (
     <div>
       <div className="hero">
+        <Shadows />
         <h3 className="services-heading">Services</h3>
         <h1 className="main-heading">
           Your Creative Journey Starts Here. Our Comprehensive Services
@@ -13,12 +26,15 @@ const Services = () => {
           Where Potential Meets Possibility: Cultivating Growth Through
           Innovative Solutions
         </p>
-        <button className="cta-button">
-          Get Started <span className="arrow">→</span>
-        </button>
+        <a href="/contact" className="cta-button">
+          <span className="button-text">Get Started</span>
+          <span className="button-icon">
+            <img src={rightarrow} alt="Arrow Icon" />
+          </span>
+        </a>
       </div>
 
-      <div className="services-section">
+      <div id="custom-application" className="services-section">
         <div className="services-content">
           <div className="services-number">
             <h1>01</h1>
@@ -51,11 +67,11 @@ const Services = () => {
           ></div>
         </div>
       </div>
-      <div className="services-section">
+      {/* Blockchain Development */}
+      <div id="blockchain-development" className="services-section">
         <div className="services-content">
           <div className="services-number">
             <h1>02</h1>
-
             <div className="services-text">
               <h2>Blockchain Development</h2>
             </div>
@@ -87,16 +103,16 @@ const Services = () => {
         </div>
       </div>
 
+      {/* AI Cloud Solutions */}
       <div className="services-section">
         <div className="services-content">
           <div className="services-number">
             <h1>03</h1>
-
             <div className="services-text">
               <h2>AI Cloud Solutions</h2>
             </div>
           </div>
-          <p className="description">
+          <p id="ai-cloud-solutions" className="description">
             Unlock the potential of AI-driven cloud solutions to transform your
             business. Our intelligent cloud infrastructure automates complex
             processes, extracts actionable insights from vast data, and enhances
@@ -122,23 +138,25 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="services-section">
+      {/* AI Cloud Infrastructure */}
+      <div id="ai-cloud-infrastructure" className="services-section">
         <div className="services-content">
           <div className="services-number">
             <h1>04</h1>
-
             <div className="services-text">
               <h2>AI Cloud Infrastructure</h2>
             </div>
           </div>
           <p className="description">
-            Unlock the potential of AI-driven cloud solutions to transform your
-            business. Our intelligent cloud infrastructure automates complex
-            processes, extracts actionable insights from vast data, and enhances
-            decision-making capabilities. Designed to scale with your needs, our
-            AI cloud solutions empower you to make smarter, data-driven
-            decisions, optimize performance, and drive impactful results across
-            all facets of your organization.
+            Leverage high-performance AI cloud infrastructure powered by
+            GPU-accelerated computing to unlock advanced machine learning and
+            deep learning capabilities. Our infrastructure combines scalable
+            cloud resources with cutting-edge GPUs, optimized for handling large
+            datasets, training complex models, and supporting real-time AI
+            workloads. Designed for computational efficiency, it empowers
+            businesses to run resource-intensive AI applications seamlessly,
+            enabling faster processing speeds, enhanced data analytics, and
+            accelerated model deployment.
           </p>
         </div>
         <div className="services-images">
@@ -157,11 +175,11 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="services-section">
+      {/* Cloud Solution and Hosting */}
+      <div id="cloud-solution-hosting" className="services-section">
         <div className="services-content">
           <div className="services-number">
             <h1>05</h1>
-
             <div className="services-text">
               <h2>Cloud Solution and Hosting</h2>
             </div>
@@ -193,11 +211,11 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="services-section">
+      {/* Fintech */}
+      <div id="fintech" className="services-section">
         <div className="services-content">
           <div className="services-number">
             <h1>06</h1>
-
             <div className="services-text">
               <h2>Fintech</h2>
             </div>
@@ -229,11 +247,11 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="services-section">
+      {/* ERP / SAP */}
+      <div id="erp-sap" className="services-section">
         <div className="services-content">
           <div className="services-number">
             <h1>07</h1>
-
             <div className="services-text">
               <h2>SAP/ERP</h2>
             </div>
@@ -266,11 +284,11 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="services-section">
+      {/* IT Support */}
+      <div id="it-support" className="services-section">
         <div className="services-content">
           <div className="services-number">
             <h1>08</h1>
-
             <div className="services-text">
               <h2>IT Support</h2>
             </div>
@@ -301,11 +319,12 @@ const Services = () => {
           ></div>
         </div>
       </div>
-      <div className="services-section">
+
+      {/* Network and System Administration */}
+      <div id="network-system-administration" className="services-section">
         <div className="services-content">
           <div className="services-number">
             <h1>09</h1>
-
             <div className="services-text">
               <h2>Network and System Administration</h2>
             </div>
@@ -337,11 +356,11 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="services-section">
+      {/* Consulting */}
+      <div className="services-section" style={{ marginBottom: "80px" }}>
         <div className="services-content">
           <div className="services-number">
             <h1>10</h1>
-
             <div className="services-text">
               <h2>Consulting</h2>
             </div>
@@ -356,7 +375,7 @@ const Services = () => {
             security, and stay ahead in a rapidly evolving digital landscape.
           </p>
         </div>
-        <div className="services-images">
+        <div className="services-images" id="consulting">
           <div
             className="services-image-container1"
             style={{
