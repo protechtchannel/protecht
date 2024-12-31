@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "../styles_css/Services.css";
 import "../styles_css/Empowering.css";
 import Shadows from "../components/Shadows";
+import rightarrow from "../images/right-arrow.svg";
 
 const Empowering = () => {
   // Use hash from URL for scrolling to specific sections

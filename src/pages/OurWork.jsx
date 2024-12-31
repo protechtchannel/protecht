@@ -1,23 +1,24 @@
 import React from "react";
 import "../styles_css/OurWork.css";
+import { useTranslation } from "react-i18next";
 
 import rightarrow from "../images/right-arrow.svg";
 const OurWork = () => {
+  const { t, i18n } = useTranslation();
+  const switchLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <div>
       <section class="endless-solutions">
-        <h1 class="black-white4">Our Work</h1>
-        <p class="endless-text">
-          Our offerings encompass services that serve as startup mentoring or
-          include consulting, contributing to the enhanced value proposition of
-          your business.
-        </p>
+        <h1 class="black-white4"> {t("ourWork.title")}</h1>
+        <p class="endless-text">{t("ourWork.description")}</p>
         <a href="/contact" className="cta-button2">
           <span
             className="button-text"
             style={{ fontSize: "16px", fontWeight: "500" }}
           >
-            View Work
+            {t("ourWork.buttonText")}
           </span>
           <span className="button-icon">
             <img src={rightarrow} alt="Arrow Icon" />
@@ -32,7 +33,7 @@ const OurWork = () => {
               <div className="service-content1">
                 <div className="ai">
                   {" "}
-                  <p>AI Cloud Solutions</p>
+                  <p>{t("projects.project1.category")}</p>
                 </div>
 
                 <div className="wrap">
@@ -47,10 +48,12 @@ const OurWork = () => {
                     </div>
                     <div className="cont2">
                       <p className="gradient">
-                        reYa.cloud | Supported by Protecht.ch
+                        {t("projects.project1.details")}
                       </p>
                       <div className="cont3">
-                        <div className="gradient-small">See projects</div>
+                        <div className="gradient small">
+                          {t("projects.project1.viewProjectText")}
+                        </div>
                         <div className="arrow-icon"></div>
                       </div>
                     </div>
@@ -62,7 +65,7 @@ const OurWork = () => {
               <div className="service-content1">
                 <div className="ai">
                   {" "}
-                  <p>Blockchain</p>
+                  <p>{t("projects.project2.category")}</p>
                 </div>
 
                 <div className="conttwo">
@@ -76,7 +79,7 @@ const OurWork = () => {
                   </div>
                   <div className="cont2">
                     <p className="gradient small2">
-                      DApp and Wallet Development for Blockchain Solutions
+                      {t("projects.project2.details")}
                     </p>
                   </div>
                 </div>
@@ -89,7 +92,7 @@ const OurWork = () => {
               <div className="service-content1">
                 <div className="ai">
                   {" "}
-                  <p>IT Suport and Solutions</p>
+                  <p>{t("projects.project3.category")}</p>
                 </div>
 
                 <div className="conttwo">
@@ -103,7 +106,7 @@ const OurWork = () => {
                   </div>
                   <div className="cont2">
                     <p className="gradient small2">
-                      Optimizing operations with reliable IT services
+                      {t("projects.project3.details")}
                     </p>
                   </div>
                 </div>
@@ -114,7 +117,7 @@ const OurWork = () => {
               <div className="service-content1">
                 <div className="ai">
                   {" "}
-                  <p>Custom Made Web Applications</p>
+                  <p>{t("projects.project4.category")}</p>
                 </div>
 
                 <div className="wrap">
@@ -133,7 +136,9 @@ const OurWork = () => {
                         Protecht.ch
                       </p>
                       <div className="cont3">
-                        <div className="gradient small">See projects</div>
+                        <div className="gradient small">
+                          {t("projects.project1.viewProjectText")}
+                        </div>
                         <div className="arrow-icon"></div>
                       </div>
                     </div>

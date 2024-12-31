@@ -1,4 +1,173 @@
 {
+  "home": {
+    "revolutionaryTechAlt": "Revolutionary Tech Solutions",
+    "elevateBusiness": "Elevate your",
+    "businessHighlight": "business.",
+    "heroDescription": "Initiating a business venture may appear overwhelming, yet our forte lies in simplifying the entire process for you.",
+    "getStarted": "Get Started",
+    "arrowIconAlt": "Arrow Icon",
+    "partnerText": "Partner with us and join the growing network of successful companies.",
+    "empoweringTitle": "Empowering Businesses through Revolutionary Tech Solutions",
+    "empoweringDescription": "We provide innovative solutions to launch, scale, and achieve sustained success in their ventures.",
+    "learnMore": "Learn More",
+    "endlessSolutionsTitle": "Our Endless Solutions",
+    "endlessSolutionsDescription": "We offer a range of specialized services designed for large-scale clients, from strategic consulting to tailored growth solutions, enhancing the value and impact of your business.",
+    "customApplicationAlt": "Custom Made Application",
+    "customApplicationTitle": "Custom Made Application",
+    "customApplicationDescription": "Build your vision into a powerful, tailored application with our expert team, aligned precisely with your goals for excellence at every step.",
+    "solutions": {
+      "customApplication": {
+        "title": "Custom Made Application",
+        "description": "Build your vision into a powerful, tailored application with our expert team, aligned precisely with your goals for excellence at every step."
+      },
+      "blockchainDevelopment": {
+        "title": "Blockchain Development",
+        "description": "Custom blockchain applications enhance security, transparency, and efficiency in processes like finance and supply chain."
+      },
+      "aiCloudSolutions": {
+        "title": "AI Cloud Solutions",
+        "description": "AI-powered cloud solutions automate processes, optimize data analysis, and improve decision-making with scalable infrastructure."
+      },
+      "aiCloudInfrastructure": {
+        "title": "AI Cloud Infrastructure",
+        "description": "Cloud hosting provides scalable, secure environments for businesses to store data and run applications remotely."
+      },
+      "cloudSolutionHosting": {
+        "title": "Cloud Solution and Hosting",
+        "description": "Empower your business with scalable, secure cloud solutions for seamless data storage and management, ensuring reliability and flexibility for growth."
+      },
+      "fintech": {
+        "title": "Fintech",
+        "description": "Enhance financial operations with optimized performance and extended software longevity, supported by top-tier technical expertise."
+      },
+      "erpSap": {
+        "title": "ERP / SAP",
+        "description": "Optimize operations with a focus on SAP ERP solutions to achieve streamlined workflows, resource efficiency, and data-driven decision-making through advanced automation and real-time insights."
+      },
+      "itSupport": {
+        "title": "IT Support",
+        "description": "Our IT support troubleshoots and maintains your infrastructure, keeping your systems always up and running."
+      }
+    }
+  },
+
+  "growth": {
+    "stabilityGrowth": {
+      "title": "Ensuring Stability and Growth with Custom Business Solutions.",
+      "description": "Experience tailored solutions designed to simplify your workflow and enhance productivity. From streamlined processes to dedicated support, we prioritize your needs to make every interaction seamless.",
+      "buttonText": "Learn More"
+    }
+  },
+
+  "features": {
+    "section1": {
+      "title": "Discovering Smart Management",
+      "description": "Stay on top of your tasks and stay informed about what’s happening."
+    },
+    "section2": {
+      "title": "Customized Software Development",
+      "description": "Custom software development is the process of conceptualizing, designing."
+    },
+    "section3": {
+      "title": "Effortless Rapid Communication",
+      "description": "Effortlessly manage your task lists and stay connected with real-time updates."
+    },
+    "section4": {
+      "title": "Stay Ahead with Adaptive Capabilities",
+      "description": "Maintain organization and keep pace with industry developments, ensuring your business is always prepared for what’s next."
+    }
+  },
+
+  "ourWork": {
+    "title": "Our Work",
+    "description": "Our offerings encompass services that serve as startup mentoring or include consulting, contributing to the enhanced value proposition of your business.",
+    "buttonText": "View Work"
+  },
+
+  "projects": {
+    "project1": {
+      "category": "AI Cloud Solutions",
+      "details": "reYa.cloud | Supported by Protecht.ch",
+      "viewProjectText": "See projects"
+    },
+    "project2": {
+      "category": "Blockchain",
+      "details": "DApp and Wallet Development for Blockchain Solutions",
+      "viewProjectText": "See projects"
+    },
+    "project3": {
+      "category": "IT Support and Solutions",
+      "details": "Optimizing operations with reliable IT services",
+      "viewProjectText": "See projects"
+    },
+    "project4": {
+      "category": "Custom Made Web Applications",
+      "details": "Bdtronic | Custom-Made CRM System Developed by Protecht.ch",
+      "viewProjectText": "See projects"
+    }
+  },
+
+  "whyChooseUs": {
+    "title": "Why Choose Us?",
+    "options": {
+      "team": "Team",
+      "communication": "Communication",
+      "solution": "Solution",
+      "quality": "Quality"
+    }
+  },
+
+  "sections": {
+    "team": {
+      "sidebarTitle": "Team",
+      "cardTitle": "Close-knit team",
+      "description": "Our close-knit team is built on trust, collaboration, and shared goals. We support each other through challenges, value open communication, and celebrate each other's successes. This unity creates an environment where everyone feels empowered to contribute their best, knowing they are part of a supportive and dedicated team committed to achieving common goals. This dynamic approach keeps us motivated, helping us grow stronger both as individuals and as a team."
+    },
+    "communication": {
+      "sidebarTitle": "Communication",
+      "cardTitle": "Open Communication",
+      "description": "We believe in maintaining transparent, open communication across all interactions with our partners to foster a collaborative and aligned environment. Our approach prioritizes clear, constructive feedback and an open exchange of perspectives, allowing us to adapt flexibly to our partners' needs and industry innovations. By valuing their insights and working together closely, we align our goals more effectively, solve challenges, and build strong, trusting relationships that drive mutual success."
+    },
+    "solution": {
+      "sidebarTitle": "Solution",
+      "cardTitle": "Solution-Oriented",
+      "description": "Our core focus revolves around finding innovative and effective solutions, tackling each challenge with a collaborative spirit. Our team takes pride in a proactive approach, working together to anticipate needs, identify root causes, and develop practical strategies that lead to lasting results. With a solution-oriented mindset, we don't just address immediate concerns; we work to prevent future issues, looking at the bigger picture to implement sustainable practices."
+    },
+    "quality": {
+      "sidebarTitle": "Quality",
+      "cardTitle": "Commitment to Quality",
+      "description": "Our focus is on finding solutions and overcoming challenges together. We are proactive in identifying issues and take pride in resolving them efficiently and effectively. Quality is our priority in every aspect of our work. We strive for excellence and continuous improvement to deliver the best outcomes for our clients and stakeholders. Every team member is dedicated to upholding the highest standards, ensuring that each project reflects our commitment to precision and care."
+    }
+  },
+
+  "heading": {
+    "empower": "Empowering Businesses Across Industries"
+  },
+
+  "testimonials": {
+    "title": "Hear from our customers",
+    "testimonial_1": {
+      "name": "Bujar Demolli",
+      "title": "CEO Dreilinden",
+      "text": "Protecht has been a key partner in our digital transformation journey. Their expertise ensures our security and keeps us resilient in the fast-evolving digital landscape. With Protecht, we're prepared to face the challenges of today’s digital world."
+    },
+    "testimonial_2": {
+      "name": "Yvonne Lang",
+      "title": "COO LFT",
+      "text": "The programming and IT security implemented by Protecht have significantly enhanced our daily operations. Thanks to their expertise, we’ve been upgraded to state-of-the-art technology, which has been a profound success in our work and overall journey."
+    },
+    "testimonial_3": {
+      "name": "Arber Arifi",
+      "title": "Chairman of the Board reYa",
+      "text": "Protecht's expertise in AI and Cloud has been pivotal in transforming our datacenter into a green, AI-driven powerhouse. Their skills and dedication have been key to the success of our reYa cloud and AI datacenter, enabling us to meet the evolving challenges of modern technology."
+    },
+    "testimonial_4": {
+      "name": "Julian Richter - Founder & Managing Wirk Partner",
+      "title": "Founder & Managing Wirk Partner",
+      "text": "The Learning Circle by Protecht offers personalized one-on-one learning support for middle school students, helping them excel academically and grow personally. It has assisted over 300 students with nearly 5,000 sessions."
+    }
+  },
+
   "hero": {
     "servicesHeading": "About us",
     "mainHeading": "Innovating Beyond Boundaries",
@@ -13,7 +182,6 @@
   "profiles": {
     "muhamer": {
       "name": "Muhamer Nuridini",
-
       "title": "CEO",
       "description1": "As Founder and CEO of Protecht, Muhamer Nuridini leads with 16+ years of expertise in IT, software development, and system administration.",
       "description2": "He drives Protecht’s mission to empower businesses through digital transformation with solutions in Custom Applications, Blockchain, AI, Cloud, Fintech, and ICT Consulting.",
@@ -29,7 +197,7 @@
   },
   "footer": {
     "innovative": "Innovative Project Ideas?",
-    "description": "We bring your boldest ideas to life with creativity, expertise, and strategic insight.",
+    "description": "We bring your boldest ideas to life with creativity, expertise, and strategic insight. Let’s work together to turn your vision into reality and make a lasting impact.",
     "newsletterTitle": "Newsletter",
     "newsletterDescription": "Subscribe to our newsletter to get the latest Protecht news",
     "emailPlaceholder": "Enter your email",

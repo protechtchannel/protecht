@@ -2,12 +2,17 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles_css/StabilitySection.css";
 import rightarrow from "../images/right-arrow.svg";
+import { useTranslation } from "react-i18next";
 
 const StabilitySection = () => {
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
 
   const handleRedirect = (section) => {
     navigate(`/empowering#${section}`);
+  };
+  const switchLanguage = (language) => {
+    i18n.changeLanguage(language);
   };
 
   return (
@@ -15,21 +20,14 @@ const StabilitySection = () => {
       <div className="custom-container">
         {/* Header Section */}
         <div className="header-section">
-          <h1 className="black-white5">
-            Ensuring Stability and Growth with Custom Business Solutions.
-          </h1>
-          <p className="title">
-            Experience tailored solutions designed to simplify your workflow and
-            enhance productivity. From streamlined processes to dedicated
-            support, we prioritize your needs to make every interaction
-            seamless.
-          </p>
+          <h1 className="black-white5">{t("growth.stabilityGrowth.title")}</h1>
+          <p className="title">{t("growth.stabilityGrowth.description")}</p>
           <a href="/contact" className="cta-button2">
             <span
               className="button-text"
               style={{ fontSize: "16px", fontWeight: "500" }}
             >
-              Learn More
+              {t("growth.stabilityGrowth.buttonText")}
             </span>
             <span className="button-icon">
               <img src={rightarrow} alt="Arrow Icon" />
@@ -51,11 +49,10 @@ const StabilitySection = () => {
               alt="Discovering Smart Management"
             />
             <div className="content-text">
-              <h3 style={{ marginTop: "0px" }}>Discovering Smart Management</h3>
-              <p>
-                Stay on top of your tasks and stay informed about what’s
-                happening.
-              </p>
+              <h3 style={{ marginTop: "0px" }}>
+                {t("features.section1.title")}
+              </h3>
+              <p>{t("features.section1.description")}</p>
             </div>
           </div>
 
@@ -70,11 +67,8 @@ const StabilitySection = () => {
               alt="Customized Software Development"
             />
             <div className="content-text">
-              <h3>Customized Software Development</h3>
-              <p>
-                Custom software development is the process of conceptualizing,
-                designing.
-              </p>
+              <h3>{t("features.section2.title")}</h3>
+              <p>{t("features.section2.description")}</p>
             </div>
           </div>
 
@@ -89,11 +83,8 @@ const StabilitySection = () => {
               alt="Effortless Rapid Communication"
             />
             <div className="content-text">
-              <h3>Effortless Rapid Communication</h3>
-              <p>
-                Effortlessly manage your task lists and stay connected with
-                real-time updates.
-              </p>
+              <h3>{t("features.section3.title")}</h3>
+              <p>{t("features.section3.description")}</p>
             </div>
           </div>
 
@@ -108,11 +99,8 @@ const StabilitySection = () => {
               alt="Stay Ahead with Adaptive Capabilities"
             />
             <div className="content-text">
-              <h3>Stay Ahead with Adaptive Capabilities</h3>
-              <p>
-                Maintain organization and keep pace with industry developments,
-                ensuring your business is always prepared for what’s next.
-              </p>
+              <h3>{t("features.section4.title")}</h3>
+              <p>{t("features.section4.description")}</p>
             </div>
           </div>
         </div>

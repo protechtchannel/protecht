@@ -120,11 +120,9 @@ const Contact = () => {
                   }
                   onMouseLeave={(e) => (e.target.style.textDecoration = "none")}
                 >
-                  Zugerstrasse 72, 6340 Baar
+                  Zugerstrasse 72, 6340 Baar, Switzerland
                 </a>
-                <div className="text" style={{ margin: "0" }}>
-                  Switzerland
-                </div>
+                {/* <div className="text" style={{ margin: "0" }}></div> */}
               </div>
             </div>
           </div>

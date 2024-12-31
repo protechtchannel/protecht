@@ -3,171 +3,175 @@ import "../styles_css/Home.css";
 import StabilitySection from "./StabilitySection";
 import OurWork from "./OurWork";
 import WhyChooseUs from "./WhyChooseUs";
-import SliderApp from "./Slider";
 import Testimonials from "./TestimonialSlider";
-
-import { useNavigate } from "react-router-dom";
-import rightarrow from "../images/right-arrow.svg";
-import rightarrow2 from "../images/rightarrow.png";
 import Carousel from "./ImageCarousel";
 import { images } from "./carouselData";
 import Shadows from "../components/Shadows";
+import { useNavigate } from "react-router-dom";
+import rightarrow from "../images/right-arrow.svg";
+import rightarrow2 from "../images/rightarrow.png";
+import codershub from "../images/codershub.png";
+import dreilinden from "../images/dreilinden.png";
+import btronic from "../images/btronic.png";
+import reya from "../images/reya.png";
+import coop from "../images/coop.png";
+import kwe from "../images/kwe.png";
+import ds from "../images/ds.png";
+import wirkt from "../images/wirkt.png";
+import simcard from "../images/simcard.png";
+import keyboard from "../images/keyboard.png";
+import code from "../images/code.png";
+import data2 from "../images/data-2.png";
+import programmingArrows from "../images/programming-arrows.png";
+import mobileProgramming from "../images/mobile-programming.png";
+import { useTranslation } from "react-i18next";
+import i18n from "../languageConfig"; // Adjust the path based on your file structure
 
 const Home = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
+
+  // Logo Data
+  const logos = [
+    {
+      href: "https://codershubeu.com/",
+      img: codershub,
+      altKey: "home.logos.coderhub",
+    },
+    {
+      href: "https://www.dreilindenag.ch/",
+      img: dreilinden,
+      altKey: "home.logos.dreilinden",
+    },
+    {
+      href: "https://www.bdtronic.com/en-en/",
+      img: btronic,
+      altKey: "home.logos.bdtronic",
+    },
+    { href: "https://reya.cloud/", img: reya, altKey: "home.logos.reya" },
+    { href: "https://www.coop.ch/en/", img: coop, altKey: "home.logos.coop" },
+    { href: "https://k-we.com/", img: kwe, altKey: "home.logos.kwe" },
+    { href: "https://dsconnect.app/", img: ds, altKey: "home.logos.dsconnect" },
+    { href: "https://wirkt.eu/", img: wirkt, altKey: "home.logos.wirkt" },
+  ];
+
+  // Solutions Data
+  // const solutions = [
+  //   {
+  //     id: "custom-application",
+  //     titleKey: "home.solutions.customApplication.title",
+  //     descriptionKey: "home.solutions.customApplication.description",
+  //     img: simcard,
+  //   },
+  //   {
+  //     id: "blockchain-development",
+  //     titleKey: "home.solutions.blockchainDevelopment.title",
+  //     descriptionKey: "home.solutions.blockchainDevelopment.description",
+  //     img: keyboard,
+  //   },
+  //   {
+  //     id: "ai-cloud-solutions",
+  //     titleKey: "home.solutions.aiCloudSolutions.title",
+  //     descriptionKey: "home.solutions.aiCloudSolutions.description",
+  //     img: code,
+  //   },
+  //   {
+  //     id: "ai-cloud-infrastructure",
+  //     titleKey: "home.solutions.aiCloudInfrastructure.title",
+  //     descriptionKey: "home.solutions.aiCloudInfrastructure.description",
+  //     img: data2,
+  //   },
+  //   {
+  //     id: "cloud-solution-hosting",
+  //     titleKey: "home.solutions.cloudSolutionHosting.title",
+  //     descriptionKey: "home.solutions.cloudSolutionHosting.description",
+  //     img: data2,
+  //   },
+  //   {
+  //     id: "fintech",
+  //     titleKey: "home.solutions.fintech.title",
+  //     descriptionKey: "home.solutions.fintech.description",
+  //     img: programmingArrows,
+  //   },
+  //   {
+  //     id: "erp-sap",
+  //     titleKey: "home.solutions.erpSap.title",
+  //     descriptionKey: "home.solutions.erpSap.description",
+  //     img: mobileProgramming,
+  //   },
+  //   {
+  //     id: "it-support",
+  //     titleKey: "home.solutions.itSupport.title",
+  //     descriptionKey: "home.solutions.itSupport.description",
+  //     img: code,
+  //   },
+  // ];
+  const switchLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
 
   const handleRedirect = (section) => {
     navigate(`/services#${section}`);
   };
+
   return (
     <div>
       <div className="hero-section">
         <Shadows />
-        {/* Main Container */}
         <div className="hero-grid">
-          {/* Left Container */}
           <div className="hero-left">
             <img
-              style={{ width: " 350px" }}
+              style={{ width: "350px" }}
               src={require("../images/revo.png")}
-              alt="Revolutionary Tech Solutions"
+              alt={t("home.revolutionaryTechAlt")}
               className="revolutionary-img"
             />
             <h1 className="main-heading2">
-              Elevate your <br />
-              <span className="highlight2">business.</span>
+              {t("home.elevateBusiness")} <br />
+              <h1 className="highlight2">{t("home.businessHighlight")}</h1>
             </h1>
           </div>
-
-          {/* Right Container */}
           <div className="hero-right">
-            <p className="hero-description">
-              Initiating a business venture may appear overwhelming, yet our
-              forte lies in simplifying the entire process for you.
-            </p>
+            <p className="hero-description">{t("home.heroDescription")}</p>
             <a href="/contact" className="cta-button">
-              <span className="button-text">Get Started</span>
+              <span className="button-text">{t("home.getStarted")}</span>
               <span className="button-icon">
-                <img src={rightarrow2} alt="Arrow Icon" />
+                <img src={rightarrow2} alt={t("home.arrowIconAlt")} />
               </span>
             </a>
           </div>
         </div>
-
-        {/* Logos Section */}
         <div className="logo-section">
-          <p className="partner-text">
-            Partner with us and join the growing network of successful
-            companies.
-          </p>
+          <p className="partner-text">{t("home.partnerText")}</p>
           <div className="logos-grid">
-            <a
-              href="https://codershubeu.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={require("../images/codershub.png")}
-                alt="Logo 1"
-                className="logo1"
-              />
-            </a>
-            <a
-              href="https://www.dreilindenag.ch/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={require("../images/dreilinden.png")}
-                alt="Logo 2"
-                className="logo2"
-              />
-            </a>
-            <a
-              href="https://www.bdtronic.com/en-en/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={require("../images/btronic.png")}
-                alt="Logo 3"
-                className="logo3"
-              />
-            </a>
-            <a
-              href="https://reya.cloud/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={require("../images/reya.png")}
-                alt="Logo 4"
-                className="logo4"
-              />
-            </a>
-            <a
-              href="https://www.coop.ch/en/?srsltid=AfmBOoo4FCV7ugKLBq4mOft86zQcOLk58XtUyPJmDfcoIM0llSn58ZXP"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={require("../images/coop.png")}
-                alt="Logo 5"
-                className="logo5"
-              />
-            </a>
-            <a
-              href="https://k-we.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={require("../images/kwe.png")}
-                alt="Logo 6"
-                className="logo6"
-              />
-            </a>
-            <a
-              href="https://dsconnect.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={require("../images/ds.png")}
-                alt="Logo 7"
-                className="logo7"
-              />
-            </a>
-            <a
-              href="https://wirkt.eu/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={require("../images/wirkt.png")}
-                alt="Logo 8"
-                className="logo8"
-              />
-            </a>
+            {logos.map((logo, index) => (
+              <a
+                key={index}
+                href={logo.href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={logo.img}
+                  alt={t(logo.altKey)}
+                  className={`logo${index + 1}`}
+                />
+              </a>
+            ))}
           </div>
         </div>
       </div>
 
       <div className="empowering-section">
         <div className="empowering-content">
-          <p className="black-white">
-            Empowering Businesses through Revolutionary Tech Solutions
-          </p>
-          <p className="paragraph we">
-            We provide innovative solutions to launch, scale, and achieve
-            sustained success in their ventures
-          </p>
+          <p className="black-white">{t("home.empoweringTitle")}</p>
+          <p className="paragraph we">{t("home.empoweringDescription")}</p>
           <a href="/contact" className="cta-button2">
             <span
               className="button-text"
               style={{ fontSize: "16px", fontWeight: "500" }}
             >
-              Learn More
+              {t("home.learnMore")}
             </span>
             <span className="button-icon">
               <img src={rightarrow} alt="Arrow Icon" />
@@ -177,14 +181,9 @@ const Home = () => {
       </div>
 
       <section class="endless-solutions">
-        <h1 class="black-white">Our Endless Solutions</h1>
-        <p class="endless-text">
-          We offer a range of specialized services designed for large-scale
-          clients, from strategic consulting to tailored growth solutions,
-          enhancing the value and impact of your business.
-        </p>
+        <h1 class="black-white">{t("home.endlessSolutionsTitle")}</h1>
+        <p class="endless-text">{t("home.endlessSolutionsDescription")}</p>
       </section>
-
       <div className="solutions-section">
         <div className="solutions-grid">
           {/* Custom Made Application */}
@@ -198,7 +197,7 @@ const Home = () => {
               alt="Custom Made Application"
               className="solution-icon"
             />
-            <p className="custom-heading">Custom Made Application</p>
+            <p className="custom-heading">{t("home.customApplicationAlt")}</p>
             <p className="paragraph">
               Build your vision into a{" "}
               <span style={{ color: "#0088ea" }}>
@@ -224,7 +223,9 @@ const Home = () => {
               alt="Blockchain Development"
               className="solution-icon"
             />
-            <p className="custom-heading">Blockchain Development</p>
+            <p className="custom-heading">
+              {t("home.solutions.blockchainDevelopment.title")}
+            </p>
             <p className="paragraph">
               Custom blockchain applications{" "}
               <span style={{ color: "#0088ea" }}>enhance</span> security,
@@ -244,7 +245,10 @@ const Home = () => {
               alt="AI Cloud Solutions"
               className="solution-icon"
             />
-            <p className="custom-heading">AI Cloud Solutions</p>
+            <p className="custom-heading">
+              {" "}
+              {t("home.solutions.aiCloudInfrastructure.title")}
+            </p>
             <p className="paragraph">
               AI-powered cloud solutions{" "}
               <span style={{ color: "#0088ea" }}>automate</span> processes,{" "}
@@ -265,7 +269,10 @@ const Home = () => {
               alt="AI Cloud Infrastructure"
               className="solution-icon"
             />
-            <p className="custom-heading">AI Cloud Infrastructure</p>
+            <p className="custom-heading">
+              {" "}
+              {t("home.solutions.aiCloudInfrastructure.title")}e
+            </p>
             <p className="paragraph">
               Cloud hosting provides{" "}
               <span style={{ color: "#0088ea" }}>scalable</span>,{" "}
@@ -285,7 +292,10 @@ const Home = () => {
               alt="Cloud Solution and Hosting"
               className="solution-icon"
             />
-            <p className="custom-heading">Cloud Solution and Hosting</p>
+            <p className="custom-heading">
+              {" "}
+              {t("home.solutions.cloudSolutionHosting.title")}
+            </p>
             <p className="paragraph">
               Empower your business with{" "}
               <span style={{ color: "#0088ea" }}>
@@ -310,7 +320,10 @@ const Home = () => {
               alt="Fintech"
               className="solution-icon"
             />
-            <p className="custom-heading">Fintech</p>
+            <p className="custom-heading">
+              {" "}
+              {t("home.solutions.fintech.title")}
+            </p>
             <p className="paragraph">
               Enhance{" "}
               <span style={{ color: "#0088ea" }}>financial operations</span>{" "}
@@ -335,7 +348,10 @@ const Home = () => {
               alt="ERP / SAP"
               className="solution-icon"
             />
-            <p className="custom-heading">ERP / SAP</p>
+            <p className="custom-heading">
+              {" "}
+              {t("home.solutions.erpSap.title")}
+            </p>
             <p className="paragraph">
               Optimize operations with a focus on SAP ERP solutions to achieve{" "}
               <span style={{ color: "#0088ea" }}>streamlined workflows</span>,{" "}
@@ -358,7 +374,10 @@ const Home = () => {
               alt="IT Support"
               className="solution-icon"
             />
-            <p className="custom-heading">IT Support</p>
+            <p className="custom-heading">
+              {" "}
+              {t("home.solutions.itSupport.title")}
+            </p>
             <p className="paragraph">
               Our IT support troubleshoots and maintains your infrastructure,{" "}
               <span style={{ color: "#0088ea" }}>
@@ -369,12 +388,31 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* <div className="solutions-section">
+        <div className="solutions-grid">
+          {solutions.map((solution, index) => (
+            <div
+              key={index}
+              className="solution-item"
+              data-target={solution.id}
+              onClick={() => handleRedirect(solution.id)}
+            >
+              <img
+                src={solution.img}
+                alt={t(solution.titleKey)}
+                className="solution-icon"
+              />
+              <p className="custom-heading">{t(solution.titleKey)}</p>
+              <p className="paragraph">{t(solution.descriptionKey)}</p>
+            </div>
+          ))}
+        </div>
+      </div> */}
+
       <StabilitySection />
       <OurWork />
       <WhyChooseUs />
-
       <Carousel images={images} />
-      {/* <SliderApp /> */}
       <Testimonials />
     </div>
   );

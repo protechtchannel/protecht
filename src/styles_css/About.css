@@ -93,9 +93,11 @@
 }
 
 /* Title */
-.profile-title {
+.profile-titleA {
   font-size: 1.5rem;
   color: #7e8492;
+  margin: 0 auto;
+  width: 90%;
   margin-bottom: 2rem;
 }
 

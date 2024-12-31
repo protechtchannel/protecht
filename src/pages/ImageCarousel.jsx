@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../styles_css/Carousel.css";
+import { useTranslation } from "react-i18next";
 
 const ImageCarousel = ({ images }) => {
   const carouselRef = useRef(null);
@@ -61,12 +62,14 @@ const ImageCarousel = ({ images }) => {
   const preventDragStart = (e) => {
     e.preventDefault();
   };
+  const { t, i18n } = useTranslation();
+  const switchLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
 
   return (
     <div className="parent-carousel">
-      <div className="carousel-header">
-        Empowering Businesses Across Industries
-      </div>
+      <div className="carousel-header">{t("heading.empower")}</div>
       <div
         className="carousel"
         ref={carouselRef}

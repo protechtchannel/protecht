@@ -1,4 +1,179 @@
 {
+  "home": {
+    "revolutionaryTechAlt": "Revolutionäre Technologielösungen",
+    "elevateBusiness": "Bringen Sie Ihr ",
+    "businessHighlight": "Geschäft voran",
+    "heroDescription": "Ein Geschäft zu starten kann überwältigend erscheinen, doch unsere Stärke liegt darin, den gesamten Prozess für Sie zu vereinfachen.",
+    "getStarted": "Loslegen",
+    "arrowIconAlt": "Pfeilsymbol",
+    "partnerText": "Arbeiten Sie mit uns zusammen und schließen Sie sich dem wachsenden Netzwerk erfolgreicher Unternehmen an.",
+    "empoweringTitle": "Stärkung der Unternehmen durch revolutionäre Technologielösungen",
+    "empoweringDescription": "Wir bieten innovative Lösungen, um den Start, das Wachstum und den nachhaltigen Erfolg ihrer Unternehmungen zu gewährleisten.",
+    "learnMore": "Mehr erfahren",
+    "endlessSolutionsTitle": "Unsere endlosen Lösungen",
+    "endlessSolutionsDescription": "Wir bieten eine Reihe spezialisierter Dienstleistungen für Großkunden an, von strategischer Beratung bis hin zu maßgeschneiderten Wachstumslösungen, die den Wert und die Wirkung Ihres Unternehmens steigerngrowth solutions, enhancing the value and impact of your business.",
+    "customApplicationAlt": "Maßgeschneiderte Anwendungen",
+    "customApplicationTitle": "Maßgeschneiderte Anwendungen",
+    "customApplicationDescription": "Verwandeln Sie Ihre Vision in eine leistungsstarke, maßgeschneiderte Anwendung mit unserem Expertenteam, das genau auf Ihre Ziele für Exzellenz in jedem Schritt abgestimmt ist.",
+
+    "solutions": {
+      "customApplication": {
+        "title": "Maßgeschneiderte Anwendungen",
+        "description": "Verwandeln Sie Ihre Vision in eine leistungsstarke, maßgeschneiderte Anwendung mit unserem Expertenteam, perfekt auf Ihre Ziele abgestimmt, um in jedem Schritt Exzellenz zu erreichen."
+      },
+      "blockchainDevelopment": {
+        "title": "Blockchain-Entwicklung",
+        "description": "Individuelle Blockchain-Anwendungen verbessern Sicherheit, Transparenz und Effizienz in Prozessen wie Finanzen und Lieferketten."
+      },
+      "aiCloudSolutions": {
+        "title": "KI-Cloud-Lösungen",
+        "description": "KI-basierte Cloud-Lösungen automatisieren Prozesse, optimieren Datenanalysen und verbessern die Entscheidungsfindung mit skalierbarer Infrastruktur."
+      },
+      "aiCloudInfrastructure": {
+        "title": "KI-Cloud-Infrastruktur",
+        "description": "Cloud-Hosting bietet skalierbare, sichere Umgebungen, in denen Unternehmen Daten speichern und Anwendungen remote ausführen können."
+      },
+      "cloudSolutionHosting": {
+        "title": "Cloud-Lösungen und Hosting",
+        "description": "Stärken Sie Ihr Unternehmen mit skalierbaren, sicheren Cloud-Lösungen für nahtlose Datenspeicherung und -verwaltung und gewährleisten Sie Zuverlässigkeit und Flexibilität für Wachstum."
+      },
+      "fintech": {
+        "title": "Fintech",
+        "description": "Verbessern Sie Finanzprozesse mit optimierter Leistung und verlängerter Softwarelebensdauer, unterstützt durch erstklassige technische Expertise."
+      },
+      "erpSap": {
+        "title": "ERP / SAP",
+        "description": "Optimieren Sie Abläufe mit Fokus auf SAP-ERP-Lösungen, um optimierte Workflows, Ressourceneffizienz und datengesteuerte Entscheidungen durch fortschrittliche Automatisierung und Echtzeiteinblicke zu erzielen."
+      },
+      "itSupport": {
+        "title": "IT-Support",
+        "description": "Unser IT-Support behebt Probleme und wartet Ihre Infrastruktur, damit Ihre Systeme stets betriebsbereit sind."
+      }
+    }
+  },
+
+  "growth": {
+    "stabilityGrowth": {
+      "title": "Gewährleistung von Stabilität und Wachstum mit maßgeschneiderten Geschäftslösungen.",
+      "description": "Erleben Sie maßgeschneiderte Lösungen, die darauf ausgelegt sind, Ihren Arbeitsablauf zu vereinfachen und die Produktivität zu steigern. Von optimierten Prozessen bis hin zu engagierter Unterstützung priorisieren wir Ihre Bedürfnisse, um jede Interaktion nahtlos zu gestalten.",
+      "buttonText": "Mehr erfahren"
+    }
+  },
+  "features": {
+    "section1": {
+      "title": "Intelligentes Management entdecken",
+      "description": "Behalten Sie den Überblick über Ihre Aufgaben und bleiben Sie informiert, was passiert."
+    },
+    "section2": {
+      "title": "Maßgeschneiderte Softwareentwicklung",
+      "description": "Die maßgeschneiderte Softwareentwicklung ist der Prozess der Konzeption und Gestaltung."
+    },
+    "section3": {
+      "title": "Mühelose schnelle Kommunikation",
+      "description": "Verwalten Sie Ihre Aufgabenlisten mühelos und bleiben Sie mit Echtzeit-Updates verbunden."
+    },
+    "section4": {
+      "title": "Vorn bleiben mit anpassungsfähigen Fähigkeiten",
+      "description": "Behalten Sie die Organisation bei und halten Sie mit den Entwicklungen der Branche Schritt, um sicherzustellen, dass Ihr Unternehmen immer auf das Nächste vorbereitet ist."
+    }
+  },
+
+  "ourWork": {
+    "title": "Unsere Arbeit",
+    "description": "Unser Angebot umfasst Dienstleistungen wie Startup-Mentoring oder Beratung, die zur Verbesserung des Mehrwerts Ihres Unternehmens beitragen.",
+    "buttonText": "Arbeit anzeigen"
+  },
+
+  "projects": {
+    "project1": {
+      "category": "AI-Cloud-Lösungen",
+      "company": "Protecht",
+      "details": "reYa.cloud | Unterstützt von Protecht.ch",
+      "year": "2024",
+      "viewProjectText": "Projekte ansehen"
+    },
+    "project2": {
+      "category": "Blockchain",
+      "company": "Protecht",
+      "details": "DApp- und Wallet-Entwicklung für Blockchain-Lösungen",
+      "year": "2024",
+      "viewProjectText": "Projekte ansehen"
+    },
+    "project3": {
+      "category": "IT-Support und Lösungen",
+      "company": "Protecht",
+      "details": "Optimierung von Abläufen mit zuverlässigen IT-Dienstleistungen",
+      "year": "2024",
+      "viewProjectText": "Projekte ansehen"
+    },
+    "project4": {
+      "category": "Maßgeschneiderte Webanwendungen",
+      "company": "Protecht",
+      "details": "Bdtronic | Maßgeschneidertes CRM-System entwickelt von Protecht.ch",
+      "year": "2024",
+      "viewProjectText": "Projekte ansehen"
+    }
+  },
+
+  "whyChooseUs": {
+    "title": "Warum uns wählen?",
+    "options": {
+      "team": "Team",
+      "communication": "Kommunikation",
+      "solution": "Lösung",
+      "quality": "Qualität"
+    }
+  },
+
+  "sections": {
+    "team": {
+      "sidebarTitle": "Team",
+      "cardTitle": "Eng verbundenes Team",
+      "description": "Unser eng verbundenes Team basiert auf Vertrauen, Zusammenarbeit und gemeinsamen Zielen. Wir unterstützen uns bei Herausforderungen, kommunizieren offen und feiern Erfolge. Jeder fühlt sich ermutigt, sein Bestes beizutragen, weil wir Teil eines unterstützenden und engagierten Teams sind. Diese Dynamik fördert Kreativität, stärkt unseren Zusammenhalt und motiviert uns, individuelle Stärken weiterzuentwickeln, während wir gemeinsam unsere Ziele erreichen."
+    },
+    "communication": {
+      "sidebarTitle": "Kommunikation",
+      "cardTitle": "Offene Kommunikation",
+      "description": "Wir legen Wert auf transparente, offene Kommunikation, um die Zusammenarbeit und Abstimmung mit unseren Partnern zu fördern. Indem wir Wert auf konstruktives Feedback und den Austausch von Ideen legen, passen wir uns flexibel an ihre Bedürfnisse und Branchenveränderungen an. Indem wir ihre Erkenntnisse wertschätzen und eng zusammenarbeiten, stimmen wir Ziele aufeinander ab, meistern Herausforderungen und bauen starke, vertrauensvolle Beziehungen für den gemeinsamen Erfolg auf."
+    },
+    "solution": {
+      "sidebarTitle": "Lösung",
+      "cardTitle": "Lösungsorientiert",
+      "description": "Unser Hauptaugenmerk liegt auf der Suche nach innovativen und effektiven Lösungen, und wir gehen jede Herausforderung mit einem kooperativen Geist an. Unser Team ist stolz auf seinen proaktiven Ansatz, arbeitet zusammen, um Grundursachen zu ermitteln und Strategien zu entwickeln, die zu dauerhaften Ergebnissen führen. Mit einem lösungsorientierten Ansatz gehen wir auf unmittelbare Probleme ein und verhindern zukünftige durch nachhaltige Praktiken."
+    },
+    "quality": {
+      "sidebarTitle": "Qualität",
+      "cardTitle": "Engagement für Qualität",
+      "description": "Unser Team basiert auf Vertrauen, Zusammenarbeit und gemeinsamen Zielen. Wir unterstützen uns bei Herausforderungen, kommunizieren offen und feiern Erfolge. Jeder wird ermutigt, sein Bestes beizutragen, da wir Teil eines engagierten und unterstützenden Teams sind. Diese Dynamik fördert Kreativität, stärkt den Zusammenhalt und hilft uns, individuelle Stärken zu entfalten und gemeinsam nachhaltige Ziele zu erreichen. Gemeinsam schaffen wir eine positive Arbeitskultur, die Wachstum und Erfolg ermöglicht."
+    }
+  },
+  "heading": {
+    "empower": "Stärkung von Unternehmen aller Branchen"
+  },
+
+  "testimonials": {
+    "title": "Hören Sie von unseren Kunden",
+    "testimonial_1": {
+      "name": "Bujar Demolli",
+      "title": "CEO Dreilinden",
+      "text": "Protecht war ein entscheidender Partner in unserer digitalen Transformationsreise. Ihre Expertise sichert unsere Sicherheit und hält uns in der sich schnell entwickelnden digitalen Landschaft widerstandsfähig. Mit Protecht sind wir bereit, die Herausforderungen der heutigen digitalen Welt zu meistern."
+    },
+    "testimonial_2": {
+      "name": "Yvonne Lang",
+      "title": "COO LFT",
+      "text": "Die von Protecht implementierte Programmierung und IT-Sicherheit haben unsere täglichen Abläufe erheblich verbessert. Dank ihrer Expertise sind wir auf modernste Technologie umgestiegen, was ein tiefgreifender Erfolg für unsere Arbeit und unsere gesamte Reise war."
+    },
+    "testimonial_3": {
+      "name": "Arber Arifi",
+      "title": "Vorsitzender des Verwaltungsrats von reYa",
+      "text": "Protechts Expertise in KI und Cloud war entscheidend für die Transformation unseres Rechenzentrums in ein grünes, KI-gesteuertes Kraftwerk. Ihre Fähigkeiten und ihr Engagement waren der Schlüssel zum Erfolg unserer reYa-Cloud und unseres KI-Rechenzentrums, sodass wir die Herausforderungen der modernen Technologie meistern können."
+    },
+    "testimonial_4": {
+      "name": "John Doe",
+      "title": "Gründer und geschäftsführender Wirk-Partner",
+      "text": "Der Learning Circle von Protecht bietet personalisierte Einzel-Lernunterstützung für Mittelschüler und hilft ihnen, akademische Leistungen zu erbringen und sich persönlich weiterzuentwickeln. Er hat über 300 Schüler in fast 5.000 Sitzungen unterstützt."
+    }
+  },
   "hero": {
     "servicesHeading": "Über uns",
     "mainHeading": "Innovation ohne Grenzen",
@@ -7,15 +182,15 @@
   },
   "about": {
     "heading": "Über uns",
-    "text1": "Protecht wurde in Zug, Schweiz, gegründet, um die internationale Zusammenarbeit zwischen der Schweiz, Deutschland, Österreich und Kosovo zu erleichtern. Mit Büros in Zug, Zürich, Wien, Frankfurt und Prishtina ist Protecht strategisch positioniert, um Innovationen in der DACH- und Balkanregion zu fördern.",
-    "text2": "Protecht spezialisiert sich auf neue Technologien wie KI-Lösungen und -Infrastrukturen, Blockchain und Cloud-Lösungen. Unsere Mission ist es, Unternehmen dabei zu unterstützen, fortschrittliche Technologie für nachhaltiges Wachstum und digitale Transformation zu nutzen."
+    "text1": "Protecht wurde in Zug, Schweiz, gegründet, um die internationale Zusammenarbeit zwischen der Schweiz, Deutschland, Österreich und Kosovo zu fördern. Mit Büros in Zug, Zürich, Wien, Frankfurt und Prishtina ist Protecht strategisch positioniert, um Innovationen in den DACH- und Balkanregionen voranzutreiben.",
+    "text2": "Mit Spezialisierung auf aufkommende Technologien konzentriert sich Protecht auf AI-Lösungen und Infrastruktur, Blockchain sowie Cloud-Lösungen und -Infrastruktur. Unsere Mission ist es, Unternehmen zu ermächtigen, fortschrittliche Technologie für nachhaltiges Wachstum und digitale Transformation zu nutzen. Durch maßgeschneiderte, wirkungsvolle Lösungen setzt sich Protecht dafür ein, Unternehmen über Grenzen hinweg zu verbinden, die Grenzen des Möglichen zu erweitern und den Weg in die Zukunft der Technologie zu ebnen."
   },
   "profiles": {
     "muhamer": {
       "name": "Muhamer Nuridini",
       "title": "CEO",
       "description1": "Als Gründer und CEO von Protecht führt Muhamer Nuridini mit über 16 Jahren Erfahrung in IT, Softwareentwicklung und Systemadministration.",
-      "description2": "Er treibt die Mission von Protecht voran, Unternehmen durch digitale Transformation zu stärken, mit Lösungen in benutzerdefinierten Anwendungen, Blockchain, KI, Cloud, Fintech und ICT-Beratung.",
+      "description2": "Er treibt die Mission von Protecht voran, Unternehmen durch digitale Transformation zu stärken, mit Lösungen in benutzerdefinierten Anwendungen, Blockchain, AI, Cloud, Fintech und ICT-Beratung.",
       "description3": "Fokussiert auf maßgeschneiderte Strategien, fördert Muhamer langfristige Kundenpartnerschaften, die auf Vertrauen und Innovation basieren, und liefert die Werkzeuge und Einblicke, die für nachhaltiges Wachstum und digitale Exzellenz erforderlich sind."
     },
     "bujar": {
@@ -29,17 +204,17 @@
 
   "footer": {
     "innovative": "Innovative Projektideen?",
-    "description": "Wir bringen Ihre kühnsten Ideen mit Kreativität, Fachwissen und strategischem Einblick zum Leben.",
+    "description": "Wir bringen Ihre kühnsten Ideen mit Kreativität, Fachwissen und strategischem Weitblick zum Leben. Lassen Sie uns zusammenarbeiten, um Ihre Vision in die Realität umzusetzen und einen bleibenden Eindruck zu hinterlassen.",
     "newsletterTitle": "Newsletter",
-    "newsletterDescription": "Abonnieren Sie unseren Newsletter, um die neuesten Protecht-News zu erhalten.",
-    "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "newsletterDescription": "Abonnieren Sie unseren Newsletter, um die neuesten Nachrichten von Protecht zu erhalten.",
+    "emailPlaceholder": "E-Mail-Adresse",
     "subscribeButton": "Abonnieren",
     "successMessage": "Sie haben sich erfolgreich angemeldet!",
     "errors": {
       "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
       "saveFailed": "Das Speichern der E-Mail ist fehlgeschlagen. Bitte versuchen Sie es erneut."
     },
-    "tagline": "Smarter, Einfacher, Schneller",
+    "tagline": "Kluger, Einfacher, Schneller",
     "companyTitle": "Unternehmen",
     "legalTitle": "Rechtliches",
     "rights": "Alle Rechte vorbehalten.",
@@ -48,7 +223,7 @@
       "careers": "Karriere",
       "news": "Nachrichten",
       "contact": "Kontakt",
-      "terms": "AGB",
+      "terms": "Nutzungsbedingungen",
       "privacy": "Datenschutz",
       "impressum": "Impressum"
     }
