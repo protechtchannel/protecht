@@ -406,5 +406,159 @@
       "message": "Leave a message...",
       "submitButton": "Send Message"
     }
+  },
+
+  "jobs": {
+    "hero": {
+      "heading": "Jobs",
+      "subHeading": "Innovating without limits, empowering your vision"
+    },
+    "noPositions": {
+      "message": "We don’t have any opened position at the moment",
+      "tip": "Tip: On our social networks, we publish our vacancies daily"
+    }
+  },
+
+  "terms": {
+    "hero": {
+      "heading": "Terms and Conditions",
+      "subHeading": "Innovating without limits, empowering your vision"
+    },
+    "effectiveDate": {
+      "label": "Effective Date",
+      "date": "November 26, 2024"
+    },
+    "introduction": {
+      "message": "Welcome to Protecht. By accessing or using our services, you agree to the terms and conditions outlined below. Please read them carefully."
+    },
+    "sections": {
+      "01": {
+        "title": "Definitions",
+        "content": {
+          "protecht": "Refers to our company, offering IT solutions including Custom-Made Applications, Blockchain Development, AI Solutions, Cloud Services, IT Support, and Consulting.",
+          "services": "All products, services, and solutions provided by Protecht.",
+          "user": "Any individual or entity accessing or using our services."
+        }
+      },
+      "02": {
+        "title": "Acceptance of Terms",
+        "content": "By using our website or services, you acknowledge that you have read, understood, and agreed to these terms. If you do not agree, do not use our services."
+      },
+      "03": {
+        "title": "Services Offered",
+        "content": [
+          "Custom application development",
+          "Blockchain solutions",
+          "Artificial Intelligence (AI) cloud and on-premise development",
+          "Cloud computing services",
+          "IT support and consulting"
+        ],
+        "note": "Specific details and terms for each service will be outlined in the respective service agreements."
+      },
+      "04": {
+        "title": "User Obligations",
+        "content": [
+          "Provide accurate and up-to-date information when required.",
+          "Use our services in compliance with applicable laws and regulations.",
+          "Refrain from using our services to engage in illegal, harmful, or unethical activities."
+        ]
+      },
+      "05": {
+        "title": "Intellectual Property",
+        "content": "All content, trademarks, logos, and software used by Protecht are the property of the company or its licensors. You are prohibited from copying, distributing, or modifying these without prior written consent."
+      },
+      "06": {
+        "title": "Confidentiality",
+        "content": "Any sensitive information shared between you and Protecht shall remain confidential unless otherwise agreed in writing or required by law."
+      },
+      "07": {
+        "title": "Limitation of Liability",
+        "content": [
+          "Indirect, incidental, or consequential damages arising from the use of our services."
+        ]
+      }
+    }
+  },
+  "privacy": {
+    "hero": {
+      "heading": "Privacy",
+      "subHeading": "Innovating without limits, empowering your vision"
+    },
+    "policyHeader": {
+      "title": "Privacy Policy",
+      "effectiveDateLabel": "Effective Date",
+      "effectiveDate": "November 26, 2024",
+      "intro": "Protecht is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you interact with our services."
+    },
+    "sections": {
+      "01": {
+        "title": "Information We Collect",
+        "intro": "We collect personal and non-personal information to provide, improve, and personalize our services. This may include:",
+        "points": [
+          "Personal Information: Name, email address, phone number, business information, and payment details when provided.",
+          "Usage Data: Information about your interactions with our website, such as IP address, browser type, and pages visited.",
+          "Cookies: Small files stored on your device to enhance your browsing experience."
+        ]
+      },
+      "02": {
+        "title": "How We Use Your Information",
+        "intro": "The information we collect is used for:",
+        "points": [
+          "Providing and managing our services.",
+          "Personalizing your experience.",
+          "Responding to inquiries and offering support.",
+          "Analyzing usage trends to improve services.",
+          "Complying with legal and regulatory requirements."
+        ]
+      },
+      "03": {
+        "title": "Sharing Your Information",
+        "intro": "We do not sell your personal information. However, we may share your data with:",
+        "points": [
+          "Service Providers: Trusted partners who assist in delivering our services, bound by confidentiality agreements.",
+          "Legal Authorities: If required to comply with legal obligations or protect our rights.",
+          "Business Transfers: In case of mergers, acquisitions, or asset sales, your information may be transferred as part of the transaction."
+        ]
+      },
+      "04": {
+        "title": "Data Security",
+        "content": "Protecht implements industry-standard measures to protect your data against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission or storage is entirely secure."
+      },
+      "05": {
+        "title": "Your Rights",
+        "intro": "As a user, you have the right to:",
+        "points": [
+          "Access the personal data we hold about you.",
+          "Request corrections or updates to your information.",
+          "Delete your data, subject to legal and contractual obligations.",
+          "Opt-out of marketing communications."
+        ],
+        "note": "To exercise these rights, contact us using the details provided below."
+      },
+      "06": {
+        "title": "Cookies and Tracking",
+        "content": "Protecht uses cookies to enhance user experience. You can manage or disable cookies through your browser settings, but this may affect your access to certain features."
+      },
+      "07": {
+        "title": "Third-Party Links",
+        "content": "Our website may contain links to external sites. Protecht is not responsible for the privacy practices of these third parties."
+      },
+      "08": {
+        "title": "Children’s Privacy",
+        "content": "Protecht’s services are not directed at children under the age of 16. We do not knowingly collect personal information from children."
+      },
+      "09": {
+        "title": "Changes to This Privacy Policy",
+        "content": "Protecht reserves the right to update this policy. Significant changes will be communicated through our website or other channels. Continued use of our services constitutes acceptance of the updated policy."
+      },
+      "10": {
+        "title": "10. Contact Us",
+        "content": "If you have questions or concerns regarding this Privacy Policy, please reach out to us:",
+        "email": "Email: office@protecht.ch",
+        "phone": "Phone: +41767354845",
+        "address": "Address: Zug, Switzerland",
+        "footer": "Protecht: Your Partner in IT Excellence"
+      }
+    }
   }
 }

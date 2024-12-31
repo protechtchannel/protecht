@@ -10,8 +10,10 @@ import "../styles_css/Contact.css";
 import Shadows from "../components/Shadows";
 import { db } from "../database_connection/firebase";
 import { collection, addDoc } from "firebase/firestore";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t, i18n } = useTranslation();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [errors, setErrors] = useState({});
@@ -69,6 +71,9 @@ const Contact = () => {
       setIsSubmitting(false);
     }
   };
+  const switchLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
 
   return (
     <div className="contact-page">
@@ -90,21 +95,24 @@ const Contact = () => {
         {/* Left Container */}
         <div className="contact-info">
           <div>
-            <span className="highlight">We'd Love to Hear From You</span>
+            <span className="highlight">{t("contactPage.title")}</span>
           </div>
           <p className="colors" style={{ marginBottom: "40px" }}>
-            For inquiries or further assistance, please contact us through our
-            website or reach out directly via email or phone.
+            {t("contactPage.description")}
           </p>
 
           <div className="info-list">
             <div className="info-item">
               <img src={PhoneIcon} alt="Phone" className="icon" />
-              <span className="text">+41767354845</span>
+              <span className="text">
+                {t("contactPage.contactDetails.phone")}
+              </span>
             </div>
             <div className="info-item">
               <img src={MailIcon} alt="Mail" className="icon" />
-              <span className="text">office@protecht.ch</span>
+              <span className="text">
+                {t("contactPage.contactDetails.email")}
+              </span>
             </div>
             <div className="info-item">
               <img src={Location} alt="Location" className="icon" />
@@ -120,9 +128,8 @@ const Contact = () => {
                   }
                   onMouseLeave={(e) => (e.target.style.textDecoration = "none")}
                 >
-                  Zugerstrasse 72, 6340 Baar, Switzerland
+                  {t("contactPage.contactDetails.address")}
                 </a>
-                {/* <div className="text" style={{ margin: "0" }}></div> */}
               </div>
             </div>
           </div>
@@ -154,25 +161,43 @@ const Contact = () => {
           {isSubmitted ? (
             <div className="popup">
               <p style={{ textAlign: "center" }}>
-                Your message has been sent successfully!
+                {t("contactPage.form.submissionSuccess")}
               </p>
-              <button onClick={() => setIsSubmitted(false)}>Close</button>
+              <button onClick={() => setIsSubmitted(false)}>
+                {t("contactPage.form.closeButton")}
+              </button>
             </div>
           ) : (
             <form onSubmit={handleSubmit}>
               <div className="form-group">
-                <input type="text" placeholder="First name" required />
+                <input
+                  type="text"
+                  placeholder={t("contactPage.form.firstName")}
+                  required
+                />
                 {errors.firstName && (
                   <p className="error-text">⚠ {errors.firstName}</p>
                 )}
-                <input type="text" placeholder="Last name" required />
+                <input
+                  type="text"
+                  placeholder={t("contactPage.form.lastName")}
+                  required
+                />
                 {errors.lastName && (
                   <p className="error-text">⚠ {errors.lastName}</p>
                 )}
               </div>
-              <input type="email" placeholder="Email" required />
+              <input
+                type="email"
+                placeholder={t("contactPage.form.email")}
+                required
+              />
               {errors.email && <p className="error-text">⚠ {errors.email}</p>}
-              <input type="tel" placeholder="Phone number" required />
+              <input
+                type="tel"
+                placeholder={t("contactPage.form.phone")}
+                required
+              />
               {errors.phoneNumber && (
                 <p className="error-text">⚠ {errors.phoneNumber}</p>
               )}
@@ -183,7 +208,7 @@ const Contact = () => {
                   width: "100%",
                   resize: "none",
                 }}
-                placeholder="Leave a message..."
+                placeholder={t("contactPage.form.message")}
                 rows="6"
               ></textarea>
               {errors.message && (
@@ -194,7 +219,7 @@ const Contact = () => {
                 type="submit"
                 disabled={isSubmitting}
               >
-                Send message
+                {t("contactPage.form.submitButton")}
               </button>
             </form>
           )}

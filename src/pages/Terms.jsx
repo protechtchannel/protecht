@@ -2,17 +2,20 @@ import React from "react";
 
 import Shadows from "../components/Shadows";
 import "../styles_css/Terms.css";
+import { useTranslation } from "react-i18next";
 
 const Terms = () => {
+  const { t, i18n } = useTranslation();
+
+  const switchLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <div>
       <div className="hero">
         <Shadows />
-
-        <h1 className="main-heading">Jobs</h1>
-        <p className="subheading">
-          Innovating without limits, empowering your vision
-        </p>
+        <h1 className="main-heading">{t("terms.hero.heading")}</h1>
+        <p className="subheading">{t("terms.hero.subHeading")}</p>
       </div>
 
       {/* Main Content */}
@@ -20,36 +23,33 @@ const Terms = () => {
         {/* Terms and Conditions Header */}
         <div className="section1">
           <p>
-            <strong>Terms and Conditions</strong>
+            <strong>{t("terms.hero.heading")}</strong>
           </p>
           <p>
-            <strong>Effective Date:</strong> November 26, 2024
+            <strong>{t("terms.effectiveDate.label")}:</strong>{" "}
+            {t("terms.effectiveDate.date")}
           </p>
-          <p>
-            Welcome to Protecht. By accessing or using our services, you agree
-            to the terms and conditions outlined below. Please read them
-            carefully.
-          </p>
+          <p>{t("terms.introduction.message")}</p>
         </div>
 
         {/* Definitions */}
         <div className="section">
           <p>
-            <strong className="number-container">01. Definitions</strong>
+            <strong className="number-container">
+              01. {t("terms.sections.01.title")}
+            </strong>
           </p>
           <p>
-            <strong style={{ color: "#315c9b" }}>Protecht:</strong> Refers to
-            our company, offering IT solutions including Custom-Made
-            Applications, Blockchain Development, AI Solutions, Cloud Services,
-            IT Support, and Consulting.
+            <strong style={{ color: "#315c9b" }}>Protecht:</strong>{" "}
+            {t("terms.sections.01.content.protecht")}
           </p>
           <p>
-            <strong style={{ color: "#315c9b" }}>Services:</strong> All
-            products, services, and solutions provided by Protecht.
+            <strong style={{ color: "#315c9b" }}>Services:</strong>{" "}
+            {t("terms.sections.01.content.services")}
           </p>
           <p>
-            <strong style={{ color: "#315c9b" }}>User/You:</strong> Any
-            individual or entity accessing or using our services.
+            <strong style={{ color: "#315c9b" }}>User/You:</strong>{" "}
+            {t("terms.sections.01.content.user")}
           </p>
         </div>
 
@@ -57,58 +57,43 @@ const Terms = () => {
         <div className="section">
           <p>
             <strong className="number-container">
-              02. Acceptance of Terms
+              02. {t("terms.sections.02.title")}
             </strong>
           </p>
-          <p>
-            By using our website or services, you acknowledge that you have{" "}
-            <strong style={{ color: "#315c9b" }}>
-              read, understood, and agreed
-            </strong>{" "}
-            to these terms. If you do not agree, do not use our services.
-          </p>
+          <p>{t("terms.sections.02.content")}</p>
         </div>
 
         {/* Services Offered */}
         <div className="section">
           <p>
-            <strong className="number-container">03. Services Offered</strong>
+            <strong className="number-container">
+              03. {t("terms.sections.03.title")}
+            </strong>
           </p>
-          <p>
-            Protecht provides a range of IT services, including but not limited
-            to:
-          </p>
+          <p>{t("terms.sections.03.contentNote")}</p>
           <ul>
-            <li>Custom application development</li>
-            <li>Blockchain solutions</li>
-            <li>
-              Artificial Intelligence (AI) cloud and on-premise development
-            </li>
-            <li>Cloud computing services</li>
-            <li>IT support and consulting</li>
+            {t("terms.sections.03.content", { returnObjects: true }).map(
+              (item, index) => (
+                <li key={index}>{item}</li>
+              )
+            )}
           </ul>
-          <p>
-            Specific details and terms for each service will be outlined in the
-            respective service agreements.
-          </p>
+          <p>{t("terms.sections.03.note")}</p>
         </div>
 
         {/* User Obligations */}
         <div className="section">
           <p>
-            <strong className="number-container">04. User Obligations</strong>
+            <strong className="number-container">
+              04. {t("terms.sections.04.title")}
+            </strong>
           </p>
-          <p>As a user of Protecht’s services, you agree to:</p>
           <ul>
-            <li>Provide accurate and up-to-date information when required.</li>
-            <li>
-              Use our services in compliance with applicable laws and
-              regulations.
-            </li>
-            <li>
-              Refrain from using our services to engage in illegal, harmful, or
-              unethical activities.
-            </li>
+            {t("terms.sections.04.content", { returnObjects: true }).map(
+              (item, index) => (
+                <li key={index}>{item}</li>
+              )
+            )}
           </ul>
         </div>
 
@@ -116,42 +101,35 @@ const Terms = () => {
         <div className="section">
           <p>
             <strong className="number-container">
-              05. Intellectual Property
+              05. {t("terms.sections.05.title")}
             </strong>
           </p>
-          <p>
-            All content, trademarks, logos, and software used by Protecht are
-            the property of the company or its licensors. You are prohibited
-            from copying, distributing, or modifying these without prior written
-            consent.
-          </p>
+          <p>{t("terms.sections.05.content")}</p>
         </div>
 
         {/* Confidentiality */}
         <div className="section">
           <p>
-            <strong className="number-container">06. Confidentiality</strong>
+            <strong className="number-container">
+              06. {t("terms.sections.06.title")}
+            </strong>
           </p>
-          <p>
-            Any sensitive information shared between you and Protecht shall
-            remain confidential unless otherwise agreed in writing or required
-            by law.
-          </p>
+          <p>{t("terms.sections.06.content")}</p>
         </div>
 
         {/* Limitation of Liability */}
         <div className="section" style={{ paddingBottom: "80px" }}>
           <p>
             <strong className="number-container">
-              07. Limitation of Liability
+              07. {t("terms.sections.07.title")}
             </strong>
           </p>
-          <p>Protecht shall not be held liable for:</p>
           <ul>
-            <li>
-              Indirect, incidental, or consequential damages arising from the
-              use of our services.
-            </li>
+            {t("terms.sections.07.content", { returnObjects: true }).map(
+              (item, index) => (
+                <li key={index}>{item}</li>
+              )
+            )}
           </ul>
         </div>
       </div>

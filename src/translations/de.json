@@ -460,5 +460,160 @@
       "message": "Hinterlassen Sie eine Nachricht...",
       "submitButton": "Nachricht senden"
     }
+  },
+
+  "jobs": {
+    "hero": {
+      "heading": "Jobs",
+      "subHeading": "Grenzenlose Innovation – Ihre Vision im Fokus"
+    },
+    "noPositions": {
+      "message": "Wir haben derzeit keine offenen Stellen",
+      "tip": "Tipp: Auf unseren sozialen Netzwerken veröffentlichen wir täglich unsere Stellenangebote"
+    }
+  },
+
+  "terms": {
+    "hero": {
+      "heading": "Nutzungsbedingungen",
+      "subHeading": "Grenzenlose Innovation – So verwirklichen Sie Ihre Vision"
+    },
+    "effectiveDate": {
+      "label": "Gültigkeitsdatum",
+      "date": "26. November 2024"
+    },
+    "introduction": {
+      "message": "Willkommen bei Protecht. Durch den Zugriff auf oder die Nutzung unserer Dienstleistungen stimmen Sie den nachfolgenden Bedingungen zu. Bitte lesen Sie diese sorgfältig durch."
+    },
+    "sections": {
+      "01": {
+        "title": "Definitionen",
+        "content": {
+          "protecht": "Bezieht sich auf unser Unternehmen, das IT-Lösungen anbietet, einschließlich maßgeschneiderter Anwendungen, Blockchain-Entwicklung, KI-Lösungen, Cloud-Services, IT-Support und Beratung.",
+          "services": "Alle Produkte, Dienstleistungen und Lösungen, die von Protecht bereitgestellt werden.",
+          "user": "Jede Person oder Organisation, die auf unsere Dienstleistungen zugreift oder diese nutzt."
+        }
+      },
+      "02": {
+        "title": "Annahme der Bedingungen",
+        "content": "Durch die Nutzung unserer Website oder Dienstleistungen bestätigen Sie, dass Sie diese Bedingungen gelesen, verstanden und akzeptiert haben. Wenn Sie nicht einverstanden sind, nutzen Sie unsere Dienstleistungen nicht."
+      },
+      "03": {
+        "title": "Angebotene Dienstleistungen",
+        "content": [
+          "Maßgeschneiderte Anwendungsentwicklung",
+          "Blockchain-Lösungen",
+          "Künstliche Intelligenz (KI) Entwicklung in der Cloud und vor Ort",
+          "Cloud-Computing-Dienste",
+          "IT-Support und Beratung"
+        ],
+        "note": "Spezifische Details und Bedingungen für jede Dienstleistung werden in den jeweiligen Servicevereinbarungen festgelegt."
+      },
+      "04": {
+        "title": "Pflichten des Nutzers",
+        "content": [
+          "Bereitstellung genauer und aktueller Informationen bei Bedarf.",
+          "Nutzung unserer Dienstleistungen in Übereinstimmung mit geltenden Gesetzen und Vorschriften.",
+          "Unterlassen Sie die Nutzung unserer Dienstleistungen für illegale, schädliche oder unethische Aktivitäten."
+        ]
+      },
+      "05": {
+        "title": "Geistiges Eigentum",
+        "content": "Alle Inhalte, Marken, Logos und Software, die von Protecht verwendet werden, sind Eigentum des Unternehmens oder seiner Lizenzgeber. Es ist Ihnen untersagt, diese ohne vorherige schriftliche Zustimmung zu kopieren, zu verteilen oder zu modifizieren."
+      },
+      "06": {
+        "title": "Vertraulichkeit",
+        "content": "Alle sensiblen Informationen, die zwischen Ihnen und Protecht geteilt werden, bleiben vertraulich, es sei denn, es wird schriftlich etwas anderes vereinbart oder das Gesetz schreibt etwas anderes vor."
+      },
+      "07": {
+        "title": "Haftungsbeschränkung",
+        "content": [
+          "Indirekte, beiläufige oder Folgeschäden, die sich aus der Nutzung unserer Dienstleistungen ergeben."
+        ]
+      }
+    }
+  },
+
+  "privacy": {
+    "hero": {
+      "heading": "Datenschutz",
+      "subHeading": "Grenzenlose Innovation – So verwirklichen Sie Ihre Vision"
+    },
+    "policyHeader": {
+      "title": "Datenschutzrichtlinie",
+      "effectiveDateLabel": "Gültigkeitsdatum",
+      "effectiveDate": "26. November 2024",
+      "intro": "Protecht verpflichtet sich, Ihre Privatsphäre zu schützen. Diese Datenschutzrichtlinie erläutert, wie wir Ihre persönlichen Daten erfassen, verwenden und schützen, wenn Sie mit unseren Diensten interagieren."
+    },
+    "sections": {
+      "01": {
+        "title": "Von uns erfasste Informationen",
+        "intro": "Wir erfassen persönliche und nicht persönliche Informationen, um unsere Dienste bereitzustellen, zu verbessern und zu personalisieren. Dazu können gehören:",
+        "points": [
+          "Persönliche Informationen: Name, E-Mail-Adresse, Telefonnummer, Geschäftsinformationen und Zahlungsdetails (sofern angegeben).",
+          "Nutzungsdaten: Informationen über Ihre Interaktionen mit unserer Website, wie IP-Adresse, Browsertyp und besuchte Seiten.",
+          "Cookies: Kleine Dateien, die auf Ihrem Gerät gespeichert werden, um Ihr Surferlebnis zu verbessern."
+        ]
+      },
+      "02": {
+        "title": "Wie wir Ihre Informationen verwenden",
+        "intro": "Die von uns erfassten Informationen werden für Folgendes verwendet:",
+        "points": [
+          "Bereitstellung und Verwaltung unserer Dienste.",
+          "Personalisierung Ihres Erlebnisses.",
+          "Beantwortung von Anfragen und Angebot von Support.",
+          "Analyse von Nutzungstrends zur Verbesserung der Dienste.",
+          "Einhaltung gesetzlicher und behördlicher Anforderungen."
+        ]
+      },
+      "03": {
+        "title": "Weitergabe Ihrer Informationen",
+        "intro": "Wir verkaufen Ihre persönlichen Daten nicht. Wir können Ihre Daten jedoch weitergeben an:",
+        "points": [
+          "Dienstleister: Vertrauenswürdige Partner, die uns bei der Bereitstellung unserer Dienste unterstützen und an Vertraulichkeitsvereinbarungen gebunden sind.",
+          "Justizbehörden: Falls dies zur Einhaltung gesetzlicher Verpflichtungen oder zum Schutz unserer Rechte erforderlich ist.",
+          "Unternehmensübertragungen: Im Falle von Fusionen, Übernahmen oder Vermögensverkäufen können Ihre Daten als Teil der Transaktion übertragen werden."
+        ]
+      },
+      "04": {
+        "title": "Datensicherheit",
+        "content": "Protecht implementiert branchenübliche Maßnahmen, um Ihre Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen. Allerdings ist keine Methode der Übertragung oder Speicherung vollkommen sicher."
+      },
+      "05": {
+        "title": "Ihre Rechte",
+        "intro": "Als Benutzer haben Sie das Recht auf:",
+        "points": [
+          "Zugriff auf die personenbezogenen Daten, die wir über Sie gespeichert haben.",
+          "Anforderung von Korrekturen oder Aktualisierungen Ihrer Daten.",
+          "Löschung Ihrer Daten, vorbehaltlich gesetzlicher und vertraglicher Verpflichtungen.",
+          "Abmeldung von Marketingkommunikation."
+        ],
+        "note": "Um diese Rechte auszuüben, kontaktieren Sie uns unter den unten angegebenen Details."
+      },
+      "06": {
+        "title": "Cookies und Tracking",
+        "content": "Protecht verwendet Cookies, um das Benutzererlebnis zu verbessern. Sie können Cookies über Ihre Browsereinstellungen verwalten oder deaktivieren, dies kann jedoch Ihren Zugriff auf bestimmte Funktionen beeinträchtigen."
+      },
+      "07": {
+        "title": "Links zu Drittanbietern",
+        "content": "Unsere Website kann Links zu externen Websites enthalten. Protecht ist nicht für die Datenschutzpraktiken dieser Drittanbieter verantwortlich."
+      },
+      "08": {
+        "title": "Datenschutz für Kinder",
+        "content": "Die Dienste von Protecht richten sich nicht an Kinder unter 16 Jahren. Wir erfassen wissentlich keine personenbezogenen Daten von Kindern."
+      },
+      "09": {
+        "title": "Änderungen dieser Datenschutzrichtlinie",
+        "content": "Protecht behält sich das Recht vor, diese Richtlinie zu aktualisieren. Wesentliche Änderungen werden über unsere Website oder andere Kanäle kommuniziert. Die fortgesetzte Nutzung unserer Dienste gilt als Annahme der aktualisierten Richtlinie."
+      },
+      "10": {
+        "title": "10. Kontakt",
+        "content": "Wenn Sie Fragen oder Bedenken bezüglich dieser Datenschutzrichtlinie haben, wenden Sie sich bitte an uns:",
+        "email": "Email: office@protecht.ch",
+        "phone": "Telefon: +41767354845",
+        "address": "Adresse: Zug, Switzerland",
+        "footer": "Protecht: Ihr Partner für IT-Exzellenz"
+      }
+    }
   }
 }
