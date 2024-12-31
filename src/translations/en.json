@@ -1,4 +1,11 @@
 {
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "empowering": "Empowering",
+    "about": "About",
+    "contact": "Contact"
+  },
   "home": {
     "revolutionaryTechAlt": "Revolutionary Tech Solutions",
     "elevateBusiness": "Elevate your",
@@ -14,43 +21,104 @@
     "endlessSolutionsDescription": "We offer a range of specialized services designed for large-scale clients, from strategic consulting to tailored growth solutions, enhancing the value and impact of your business.",
     "customApplicationAlt": "Custom Made Application",
     "customApplicationTitle": "Custom Made Application",
-    "customApplicationDescription": "Build your vision into a powerful, tailored application with our expert team, aligned precisely with your goals for excellence at every step.",
-    "solutions": {
-      "customApplication": {
-        "title": "Custom Made Application",
-        "description": "Build your vision into a powerful, tailored application with our expert team, aligned precisely with your goals for excellence at every step."
-      },
-      "blockchainDevelopment": {
-        "title": "Blockchain Development",
-        "description": "Custom blockchain applications enhance security, transparency, and efficiency in processes like finance and supply chain."
-      },
-      "aiCloudSolutions": {
-        "title": "AI Cloud Solutions",
-        "description": "AI-powered cloud solutions automate processes, optimize data analysis, and improve decision-making with scalable infrastructure."
-      },
-      "aiCloudInfrastructure": {
-        "title": "AI Cloud Infrastructure",
-        "description": "Cloud hosting provides scalable, secure environments for businesses to store data and run applications remotely."
-      },
-      "cloudSolutionHosting": {
-        "title": "Cloud Solution and Hosting",
-        "description": "Empower your business with scalable, secure cloud solutions for seamless data storage and management, ensuring reliability and flexibility for growth."
-      },
-      "fintech": {
-        "title": "Fintech",
-        "description": "Enhance financial operations with optimized performance and extended software longevity, supported by top-tier technical expertise."
-      },
-      "erpSap": {
-        "title": "ERP / SAP",
-        "description": "Optimize operations with a focus on SAP ERP solutions to achieve streamlined workflows, resource efficiency, and data-driven decision-making through advanced automation and real-time insights."
-      },
-      "itSupport": {
-        "title": "IT Support",
-        "description": "Our IT support troubleshoots and maintains your infrastructure, keeping your systems always up and running."
-      }
-    }
+    "customApplicationDescription": "Build your vision into a powerful, tailored application with our expert team, aligned precisely with your goals for excellence at every step."
   },
 
+  "solutions": {
+    "customApplication": {
+      "id": "custom-application",
+      "title": "Custom Made Application",
+      "description": [
+        "Build your vision into a ",
+        { "text": "powerful, tailored application", "color": "#0088ea" },
+        " with our expert team, ",
+        { "text": "aligned precisely with your goals", "color": "#0088ea" },
+        " for excellence at every step."
+      ]
+    },
+    "blockchainDevelopment": {
+      "id": "blockchain-development",
+      "title": "Blockchain Development",
+      "description": [
+        "Custom blockchain applications ",
+        { "text": "enhance", "color": "#0088ea" },
+        " security, transparency, and efficiency in processes like finance and supply chain."
+      ]
+    },
+    "aiCloudSolutions": {
+      "id": "ai-cloud-solutions",
+      "title": "AI Cloud Solutions",
+      "description": [
+        "AI-powered cloud solutions ",
+        { "text": "automate", "color": "#0088ea" },
+        " processes, ",
+        { "text": "optimize", "color": "#0088ea" },
+        " data analysis, and ",
+        { "text": "improve", "color": "#0088ea" },
+        " decision-making with scalable infrastructure."
+      ]
+    },
+    "aiCloudInfrastructure": {
+      "id": "ai-cloud-infrastructure",
+      "title": "AI Cloud Infrastructure",
+      "description": [
+        "Cloud hosting provides ",
+        { "text": "scalable", "color": "#0088ea" },
+        ", ",
+        { "text": "secure", "color": "#0088ea" },
+        " environments for businesses to store data and run applications remotely."
+      ]
+    },
+    "cloudSolutionHosting": {
+      "id": "cloud-solution-hosting",
+      "title": "Cloud Solution and Hosting",
+      "description": [
+        "Empower your business with ",
+        { "text": "scalable, secure cloud solutions", "color": "#0088ea" },
+        " for seamless data storage and management, ensuring ",
+        { "text": "reliability and flexibility", "color": "#0088ea" },
+        " for growth."
+      ]
+    },
+    "fintech": {
+      "id": "fintech",
+      "title": "Fintech",
+      "description": [
+        "Enhance ",
+        { "text": "financial operations", "color": "#0088ea" },
+        " with optimized performance and extended ",
+        { "text": "software longevity", "color": "#0088ea" },
+        ", supported by ",
+        { "text": "top-tier technical expertise", "color": "#0088ea" },
+        "."
+      ]
+    },
+    "erpSap": {
+      "id": "erp-sap",
+      "title": "ERP / SAP",
+      "description": [
+        "Optimize operations with a focus on SAP ERP solutions to achieve ",
+        { "text": "streamlined workflows", "color": "#0088ea" },
+        ", ",
+        { "text": "resource efficiency", "color": "#0088ea" },
+        ", and ",
+        { "text": "data-driven decision-making", "color": "#0088ea" },
+        " through advanced automation and real-time insights."
+      ]
+    },
+    "itSupport": {
+      "id": "it-support",
+      "title": "IT Support",
+      "description": [
+        "Our IT support troubleshoots and maintains your infrastructure, ",
+        {
+          "text": "keeping your systems always up and running",
+          "color": "#0088ea"
+        },
+        "."
+      ]
+    }
+  },
   "growth": {
     "stabilityGrowth": {
       "title": "Ensuring Stability and Growth with Custom Business Solutions.",
@@ -219,6 +287,66 @@
       "terms": "Terms",
       "privacy": "Privacy",
       "impressum": "Imprint"
+    }
+  },
+  "services": {
+    "hero": {
+      "heading": "Services",
+      "mainHeading": "Your Creative Journey Starts Here. Our Comprehensive Services",
+      "subHeading": "Where Potential Meets Possibility: Cultivating Growth Through Innovative Solutions",
+      "ctaButton": "Get Started"
+    }
+  },
+  "servicesSections": {
+    "section01": {
+      "number": "01",
+      "title": "Custom Made Application",
+      "description": "Our custom applications are meticulously designed to align with your unique business needs and objectives. By working closely with you, our dedicated team ensures every detail is tailored to enhance functionality, efficiency, and user experience. We leverage industry-leading technology and development practices to bring your vision to life with precision and uncompromising quality."
+    },
+    "section02": {
+      "number": "02",
+      "title": "Blockchain Development",
+      "description": "Empower your business with tailored blockchain solutions that deliver unparalleled security, transparency, and operational efficiency. Our blockchain applications are designed to foster trust and enhance agility across various industries, from finance and supply chain to healthcare and logistics. By implementing decentralized technology, we enable secure transactions, streamlined processes, and real-time data sharing that redefine how you conduct business in the digital age."
+    },
+    "section03": {
+      "number": "03",
+      "title": "AI Cloud Solutions",
+      "description": "Unlock the potential of AI-driven cloud solutions to transform your business. Our intelligent cloud infrastructure automates complex processes, extracts actionable insights from vast data, and enhances decision-making capabilities. Designed to scale with your needs, our AI cloud solutions empower you to make smarter, data-driven decisions, optimize performance, and drive impactful results across all facets of your organization."
+    },
+    "section04": {
+      "number": "04",
+      "title": "AI Cloud Infrastructure",
+      "description": "Leverage high-performance AI cloud infrastructure powered by GPU-accelerated computing to unlock advanced machine learning and deep learning capabilities. Our infrastructure combines scalable cloud resources with cutting-edge GPUs, optimized for handling large datasets, training complex models, and supporting real-time AI workloads. Designed for computational efficiency, it empowers businesses to run resource-intensive AI applications seamlessly, enabling faster processing speeds, enhanced data analytics, and accelerated model deployment."
+    },
+    "section05": {
+      "number": "05",
+      "title": "Cloud Solution and Hosting",
+      "description": "Ensure a resilient and optimized IT infrastructure with our comprehensive network and system administration services. Our team provides proactive monitoring, rapid issue resolution, and continuous performance tuning to keep your operations running seamlessly. From configuring secure networks to maintaining system stability, we work to minimize disruptions, enhance reliability, and support your business’s evolving needs, ensuring your IT environment is robust, efficient, and secure."
+    },
+    "section06": {
+      "number": "06",
+      "title": "Fintech",
+      "description": "Drive innovation in finance with cutting-edge fintech solutions designed to optimize operational efficiency, enhance security, and ensure regulatory compliance. Our expertise in financial technology empowers your business to deliver seamless digital experiences, process transactions securely, and manage data with precision. With scalable and robust software tailored for the fast-evolving financial sector, we help you stay competitive, adapt to industry shifts, and meet customer demands with confidence."
+    },
+    "section07": {
+      "number": "07",
+      "title": "SAP/ERP",
+      "description": "Revolutionize your organization with ERP solutions that prioritize SAP but extend to a variety of platforms, providing a robust foundation for enterprise-wide integration and efficiency. Our offerings leverage SAP’s comprehensive capabilities—from finance and supply chain to human resources—while supporting other ERP systems to ensure seamless data flow and process automation across departments. Designed to enhance transparency, our ERP solutions empower businesses with real-time analytics, enabling leaders to make data-driven decisions and adapt swiftly to market demands."
+    },
+    "section08": {
+      "number": "08",
+      "title": "IT Support",
+      "description": "Our IT support services are dedicated to maintaining a stable, secure, and resilient IT infrastructure that supports your business goals. From rapid troubleshooting and proactive monitoring to comprehensive maintenance, we ensure your systems operate at peak performance with minimal downtime. Our team works closely with you to identify and address potential issues before they impact productivity, empowering your business with reliable and responsive IT support that adapts to evolving needs."
+    },
+    "section09": {
+      "number": "09",
+      "title": "Network and System Administration",
+      "description": "Ensure a resilient and optimized IT infrastructure with our comprehensive network and system administration services. Our team provides proactive monitoring, rapid issue resolution, and continuous performance tuning to keep your operations running seamlessly. From configuring secure networks to maintaining system stability, we work to minimize disruptions, enhance reliability, and support your business’s evolving needs, ensuring your IT environment is robust, efficient, and secure."
+    },
+    "section10": {
+      "number": "10",
+      "title": "Consulting",
+      "description": "Our IT consulting services empower your business to leverage emerging technologies for competitive advantage. We provide expert guidance on cloud solutions, AI integration, cybersecurity, and digital transformation strategies tailored to your unique needs. By identifying technology-driven growth opportunities and implementing scalable solutions, we help you optimize operations, enhance security, and stay ahead in a rapidly evolving digital landscape."
     }
   }
 }

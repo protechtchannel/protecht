@@ -4,8 +4,11 @@ import "../styles_css/Header.css";
 import logo from "../images/logo.png";
 import menuIcon from "../images/menu.svg"; // Add your menu icon image
 import Menu from "./Menu"; // Import the Menu component
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation(); // Removed i18n since it's no longer needed for switching
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null); // Reference for the menu container
   const menuIconRef = useRef(null); // Reference for the menu icon
@@ -69,7 +72,7 @@ const Header = () => {
                 to="/"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Home
+                {t("header.home")}
               </NavLink>
             </li>
             <li>
@@ -77,7 +80,7 @@ const Header = () => {
                 to="/services"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Services
+                {t("header.services")}
               </NavLink>
             </li>
             <li>
@@ -85,7 +88,7 @@ const Header = () => {
                 to="/empowering"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Empowering
+                {t("header.empowering")}
               </NavLink>
             </li>
             <li>
@@ -93,7 +96,7 @@ const Header = () => {
                 to="/about"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                About
+                {t("header.about")}
               </NavLink>
             </li>
             <li>
@@ -101,7 +104,7 @@ const Header = () => {
                 to="/contact"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Contact
+                {t("header.contact")}
               </NavLink>
             </li>
           </ul>

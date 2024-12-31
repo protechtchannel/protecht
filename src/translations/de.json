@@ -1,4 +1,11 @@
 {
+  "header": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "empowering": "Stärkung",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
   "home": {
     "revolutionaryTechAlt": "Revolutionäre Technologielösungen",
     "elevateBusiness": "Bringen Sie Ihr ",
@@ -14,44 +21,151 @@
     "endlessSolutionsDescription": "Wir bieten eine Reihe spezialisierter Dienstleistungen für Großkunden an, von strategischer Beratung bis hin zu maßgeschneiderten Wachstumslösungen, die den Wert und die Wirkung Ihres Unternehmens steigerngrowth solutions, enhancing the value and impact of your business.",
     "customApplicationAlt": "Maßgeschneiderte Anwendungen",
     "customApplicationTitle": "Maßgeschneiderte Anwendungen",
-    "customApplicationDescription": "Verwandeln Sie Ihre Vision in eine leistungsstarke, maßgeschneiderte Anwendung mit unserem Expertenteam, das genau auf Ihre Ziele für Exzellenz in jedem Schritt abgestimmt ist.",
-
-    "solutions": {
-      "customApplication": {
-        "title": "Maßgeschneiderte Anwendungen",
-        "description": "Verwandeln Sie Ihre Vision in eine leistungsstarke, maßgeschneiderte Anwendung mit unserem Expertenteam, perfekt auf Ihre Ziele abgestimmt, um in jedem Schritt Exzellenz zu erreichen."
-      },
-      "blockchainDevelopment": {
-        "title": "Blockchain-Entwicklung",
-        "description": "Individuelle Blockchain-Anwendungen verbessern Sicherheit, Transparenz und Effizienz in Prozessen wie Finanzen und Lieferketten."
-      },
-      "aiCloudSolutions": {
-        "title": "KI-Cloud-Lösungen",
-        "description": "KI-basierte Cloud-Lösungen automatisieren Prozesse, optimieren Datenanalysen und verbessern die Entscheidungsfindung mit skalierbarer Infrastruktur."
-      },
-      "aiCloudInfrastructure": {
-        "title": "KI-Cloud-Infrastruktur",
-        "description": "Cloud-Hosting bietet skalierbare, sichere Umgebungen, in denen Unternehmen Daten speichern und Anwendungen remote ausführen können."
-      },
-      "cloudSolutionHosting": {
-        "title": "Cloud-Lösungen und Hosting",
-        "description": "Stärken Sie Ihr Unternehmen mit skalierbaren, sicheren Cloud-Lösungen für nahtlose Datenspeicherung und -verwaltung und gewährleisten Sie Zuverlässigkeit und Flexibilität für Wachstum."
-      },
-      "fintech": {
-        "title": "Fintech",
-        "description": "Verbessern Sie Finanzprozesse mit optimierter Leistung und verlängerter Softwarelebensdauer, unterstützt durch erstklassige technische Expertise."
-      },
-      "erpSap": {
-        "title": "ERP / SAP",
-        "description": "Optimieren Sie Abläufe mit Fokus auf SAP-ERP-Lösungen, um optimierte Workflows, Ressourceneffizienz und datengesteuerte Entscheidungen durch fortschrittliche Automatisierung und Echtzeiteinblicke zu erzielen."
-      },
-      "itSupport": {
-        "title": "IT-Support",
-        "description": "Unser IT-Support behebt Probleme und wartet Ihre Infrastruktur, damit Ihre Systeme stets betriebsbereit sind."
-      }
+    "customApplicationDescription": "Verwandeln Sie Ihre Vision in eine leistungsstarke, maßgeschneiderte Anwendung mit unserem Expertenteam, das genau auf Ihre Ziele für Exzellenz in jedem Schritt abgestimmt ist."
+  },
+  "solutions": {
+    "customApplication": {
+      "id": "custom-application",
+      "title": "Maßgeschneiderte Anwendungen",
+      "description": [
+        "Bauen Sie Ihre Vision in eine ",
+        {
+          "text": "leistungsstarke, maßgeschneiderte Anwendung",
+          "color": "#0088ea"
+        },
+        " mit unserem Expertenteam um, ",
+        {
+          "text": "genau abgestimmt auf Ihre Ziele",
+          "color": "#0088ea"
+        },
+        " für Spitzenleistungen in jedem Schritt."
+      ]
+    },
+    "blockchainDevelopment": {
+      "id": "blockchain-development",
+      "title": "Blockchain-Entwicklung",
+      "description": [
+        "Maßgeschneiderte Blockchain-Anwendungen ",
+        {
+          "text": "verbessern",
+          "color": "#0088ea"
+        },
+        " Sicherheit, Transparenz und Effizienz in Prozessen wie Finanzen und Lieferketten."
+      ]
+    },
+    "aiCloudSolutions": {
+      "id": "ai-cloud-solutions",
+      "title": "KI-Cloud-Lösungen",
+      "description": [
+        "KI-gestützte Cloud-Lösungen ",
+        {
+          "text": "automatisieren",
+          "color": "#0088ea"
+        },
+        " Prozesse, ",
+        {
+          "text": "optimieren",
+          "color": "#0088ea"
+        },
+        " Datenanalysen und ",
+        {
+          "text": "verbessern",
+          "color": "#0088ea"
+        },
+        " die Entscheidungsfindung mit skalierbarer Infrastruktur."
+      ]
+    },
+    "aiCloudInfrastructure": {
+      "id": "ai-cloud-infrastructure",
+      "title": "KI-Cloud-Infrastruktur",
+      "description": [
+        "Cloud-Hosting bietet ",
+        {
+          "text": "skalierbare",
+          "color": "#0088ea"
+        },
+        " und ",
+        {
+          "text": "sichere",
+          "color": "#0088ea"
+        },
+        " Umgebungen, um Daten zu speichern und Anwendungen remote auszuführen."
+      ]
+    },
+    "cloudSolutionHosting": {
+      "id": "cloud-solution-hosting",
+      "title": "Cloud-Lösungen und Hosting",
+      "description": [
+        "Stärken Sie Ihr Unternehmen mit ",
+        {
+          "text": "skalierbaren, sicheren Cloud-Lösungen",
+          "color": "#0088ea"
+        },
+        " für nahtlose Datenspeicherung und -verwaltung und sorgen Sie für ",
+        {
+          "text": "Zuverlässigkeit und Flexibilität",
+          "color": "#0088ea"
+        },
+        " für Wachstum."
+      ]
+    },
+    "fintech": {
+      "id": "fintech",
+      "title": "Fintech",
+      "description": [
+        "Verbessern Sie ",
+        {
+          "text": "Finanzoperationen",
+          "color": "#0088ea"
+        },
+        " mit optimierter Leistung und verlängerter ",
+        {
+          "text": "Software-Lebensdauer",
+          "color": "#0088ea"
+        },
+        ", unterstützt durch ",
+        {
+          "text": "erstklassige technische Expertise",
+          "color": "#0088ea"
+        },
+        "."
+      ]
+    },
+    "erpSap": {
+      "id": "erp-sap",
+      "title": "ERP / SAP",
+      "description": [
+        "Optimieren Sie die Abläufe mit einem Fokus auf SAP-ERP-Lösungen, um ",
+        {
+          "text": "optimierte Workflows",
+          "color": "#0088ea"
+        },
+        ", ",
+        {
+          "text": "Ressourceneffizienz",
+          "color": "#0088ea"
+        },
+        " und ",
+        {
+          "text": "datenbasierte Entscheidungsfindung",
+          "color": "#0088ea"
+        },
+        " durch erweiterte Automatisierung und Echtzeit-Einblicke zu erreichen."
+      ]
+    },
+    "itSupport": {
+      "id": "it-support",
+      "title": "IT-Support",
+      "description": [
+        "Unser IT-Support löst Probleme und wartet Ihre Infrastruktur, ",
+        {
+          "text": "damit Ihre Systeme immer laufen",
+          "color": "#0088ea"
+        },
+        "."
+      ]
     }
   },
-
   "growth": {
     "stabilityGrowth": {
       "title": "Gewährleistung von Stabilität und Wachstum mit maßgeschneiderten Geschäftslösungen.",
@@ -226,6 +340,68 @@
       "terms": "Nutzungsbedingungen",
       "privacy": "Datenschutz",
       "impressum": "Impressum"
+    }
+  },
+
+  "services": {
+    "hero": {
+      "heading": "Dienstleistungen",
+      "mainHeading": "Ihre kreative Reise beginnt hier. Unsere umfassenden Dienstleistungen",
+      "subHeading": "Wo Potenzial auf Möglichkeiten trifft: Wachstum durch innovative Lösungen fördern",
+      "ctaButton": "Loslegen"
+    }
+  },
+
+  "servicesSections": {
+    "section01": {
+      "number": "01",
+      "title": "Maßgeschneiderte Anwendungen",
+      "description": "Unsere maßgeschneiderten Anwendungen werden sorgfältig entwickelt, um mit Ihren einzigartigen Geschäftsbedürfnissen und Zielen übereinzustimmen. Durch die enge Zusammenarbeit mit Ihnen stellt unser engagiertes Team sicher, dass jedes Detail darauf abgestimmt ist, die Funktionalität, Effizienz und Benutzererfahrung zu verbessern. Wir nutzen marktführende Technologien und Entwicklungspraktiken, um Ihre Vision mit Präzision und kompromissloser Qualität zum Leben zu erwecken."
+    },
+    "section02": {
+      "number": "02",
+      "title": "Blockchain-Entwicklung",
+      "description": "Ermächtigen Sie Ihr Unternehmen mit maßgeschneiderten Blockchain-Lösungen, die unübertroffene Sicherheit, Transparenz und operative Effizienz bieten. Unsere Blockchain-Anwendungen sind darauf ausgelegt, Vertrauen zu fördern und die Agilität in verschiedenen Branchen zu verbessern, von Finanzen und Lieferketten bis hin zu Gesundheitswesen und Logistik. Durch die Implementierung dezentraler Technologien ermöglichen wir sichere Transaktionen, optimierte Prozesse und den Austausch von Echtzeitdaten, die definieren, wie Sie im digitalen Zeitalter Geschäfte tätigen."
+    },
+    "section03": {
+      "number": "03",
+      "title": "AI-Cloud-Lösungen",
+      "description": "Nutzen Sie das Potenzial von KI-gesteuerten Cloud-Lösungen, um Ihr Unternehmen zu transformieren. Unsere intelligente Cloud-Infrastruktur automatisiert komplexe Prozesse, extrahiert umsetzbare Erkenntnisse aus umfangreichen Daten und verbessert die Entscheidungsfindungsfähigkeiten. Unsere KI-Cloud-Lösungen sind darauf ausgelegt, mit Ihren Bedürfnissen zu wachsen und ermöglichen Ihnen, smartere, datengestützte Entscheidungen zu treffen, die Leistung zu optimieren und wirkungsvolle Ergebnisse in allen Bereichen Ihrer Organisation zu erzielen."
+    },
+    "section04": {
+      "number": "04",
+      "title": "AI-Cloud-Infrastruktur",
+      "description": "Nutzen Sie die leistungsstarke KI-Cloud-Infrastruktur, die durch GPU-beschleunigtes Computing angetrieben wird, um fortschrittliche maschinelles Lernen und Deep Learning-Fähigkeiten freizuschalten. Unsere Infrastruktur kombiniert skalierbare Cloud-Ressourcen mit modernen GPUs, die für die Verarbeitung großer Datensätze, das Training komplexer Modelle und die Unterstützung von Echtzeit-KI-Arbeitslasten optimiert sind. Sie ist auf rechnerische Effizienz ausgelegt und ermöglicht es Unternehmen, ressourcenintensive KI-Anwendungen nahtlos auszuführen, schnellere Verarbeitungszeiten, verbesserte Datenanalysen und beschleunigte Modellbereitstellungen zu erreichen."
+    },
+    "section05": {
+      "number": "05",
+      "title": "Cloud-Lösungen und Hosting",
+      "description": "Stellen Sie mit unseren umfassenden Netzwerk- und Systemadministrationsdiensten eine widerstandsfähige und optimierte IT-Infrastruktur sicher. Unser Team bietet proaktive Überwachung, schnelle Problemlösungen und kontinuierliches Leistungs-Tuning, um sicherzustellen, dass Ihre Abläufe reibungslos funktionieren. Vom Einrichten sicherer Netzwerke bis zur Aufrechterhaltung der Systemstabilität arbeiten wir daran, Störungen zu minimieren, die Zuverlässigkeit zu erhöhen und die sich entwickelnden Bedürfnisse Ihres Unternehmens zu unterstützen, um sicherzustellen, dass Ihre IT-Umgebung robust, effizient und sicher ist."
+    },
+    "section06": {
+      "number": "06",
+      "title": "Fintech",
+      "description": "Treiben Sie Innovationen im Finanzwesen mit modernen Fintech-Lösungen voran, die darauf ausgelegt sind, die betriebliche Effizienz zu optimieren, die Sicherheit zu erhöhen und die Einhaltung von Vorschriften sicherzustellen. Unsere Expertise in der Finanztechnologie ermöglicht es Ihrem Unternehmen, nahtlose digitale Erfahrungen zu bieten, Transaktionen sicher abzuwickeln und Daten präzise zu verwalten. Mit skalierbarer und robuster Software, die für den sich schnell entwickelnden Finanzsektor maßgeschneidert ist, helfen wir Ihnen, wettbewerbsfähig zu bleiben, sich an Branchenschwankungen anzupassen und Kundenanforderungen mit Vertrauen zu erfüllen."
+    },
+    "section07": {
+      "number": "07",
+      "title": "SAP/ERP",
+      "description": "Revolutionieren Sie Ihre Organisation mit ERP-Lösungen, die SAP priorisieren, aber auch auf eine Vielzahl von Plattformen ausgeweitet werden und eine solide Grundlage für die unternehmensweite Integration und Effizienz bieten. Unser Angebot nutzt die umfassenden Möglichkeiten von SAP – von Finanzen und Lieferketten bis hin zu Personalwesen – und unterstützt andere ERP-Systeme, um einen nahtlosen Datenfluss und die Automatisierung von Prozessen über Abteilungen hinweg zu gewährleisten. Unsere ERP-Lösungen sind darauf ausgelegt, die Transparenz zu erhöhen und Unternehmen mit Echtzeitanalysen auszustatten, sodass Führungskräfte datengestützte Entscheidungen treffen und sich schnell an Marktentwicklungen anpassen können."
+    },
+    "section08": {
+      "number": "08",
+      "title": "IT-Support",
+      "description": "Unsere IT-Support-Dienste sind darauf ausgelegt, eine stabile, sichere und belastbare IT-Infrastruktur aufrechtzuerhalten, die Ihre Unternehmensziele unterstützt. Von schneller Fehlersuche und proaktiver Überwachung bis hin zu umfassender Wartung stellen wir sicher, dass Ihre Systeme mit minimalen Ausfallzeiten auf höchster Leistung arbeiten. Unser Team arbeitet eng mit Ihnen zusammen, um potenzielle Probleme zu identifizieren und zu lösen, bevor sie die Produktivität beeinträchtigen, und statten Ihr Unternehmen mit zuverlässigem IT-Support aus, der sich an die sich entwickelnden Bedürfnisse anpasst."
+    },
+    "section09": {
+      "number": "09",
+      "title": "Netzwerk- und Systemadministration",
+      "description": "Stellen Sie mit unseren umfassenden Netzwerk- und Systemadministrationsdiensten eine widerstandsfähige und optimierte IT-Infrastruktur sicher. Unser Team bietet proaktive Überwachung, schnelle Problemlösungen und kontinuierliches Leistungs-Tuning, um sicherzustellen, dass Ihre Abläufe reibungslos funktionieren. Vom Einrichten sicherer Netzwerke bis zur Aufrechterhaltung der Systemstabilität arbeiten wir daran, Störungen zu minimieren, die Zuverlässigkeit zu erhöhen und die sich entwickelnden Bedürfnisse Ihres Unternehmens zu unterstützen, um sicherzustellen, dass Ihre IT-Umgebung robust, effizient und sicher ist."
+    },
+    "section10": {
+      "number": "10",
+      "title": "Beratung",
+      "description": "Unsere IT-Beratungsdienste ermöglichen es Ihrem Unternehmen, aufkommende Technologien für Wettbewerbsvorteile zu nutzen. Wir bieten fachkundige Beratung zu Cloud-Lösungen, KI-Integration, Cybersicherheit und Strategien zur digitalen Transformation, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind. Indem wir technologiegetriebene Wachstumschancen identifizieren und skalierbare Lösungen implementieren, helfen wir Ihnen, die Abläufe zu optimieren, die Sicherheit zu erhöhen und in einer sich schnell entwickelnden digitalen Landschaft einen Schritt voraus zu bleiben."
     }
   }
 }
