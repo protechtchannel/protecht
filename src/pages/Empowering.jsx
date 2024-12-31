@@ -1,32 +1,160 @@
+// import React, { useEffect } from "react";
+// import "../styles_css/Services.css";
+// import "../styles_css/Empowering.css";
+// import Shadows from "../components/Shadows";
+// import { useTranslation } from "react-i18next";
+// import rightarrow from "../images/right-arrow.svg";
+
+// const Empowering = () => {
+//   const { t, i18n } = useTranslation();
+
+//   useEffect(() => {
+//     const hash = window.location.hash;
+//     if (hash) {
+//       const element = document.querySelector(hash);
+//       if (element) {
+//         element.scrollIntoView({ behavior: "smooth" });
+//       }
+//     }
+//   }, []);
+
+//   return (
+//     <div>
+//       {/* Hero Section */}
+//       <div className="hero">
+//         <Shadows />
+//         <h3 className="services-heading">{t("empowering.hero.heading")}</h3>
+//         <h1 className="main-heading">{t("empowering.hero.mainHeading")}</h1>
+//         <p className="subheading">{t("empowering.hero.subHeading")}</p>
+//       </div>
+
+//       {/* Section 1 */}
+//       <div id="discovering-smart-management" className="services-section">
+//         <div className="services-content">
+//           <div className="services-text">
+//             <h2>{t("empowering.section01.title")}</h2>
+//             <p className="description">
+//               {t("empowering.section01.description")}
+//             </p>
+//             <p>{t("empowering.section01.content1")}</p>
+//             <p>{t("empowering.section01.content2")}</p>
+//             <p>{t("empowering.section01.content3")}</p>
+//             <p>{t("empowering.section01.content4")}</p>
+//           </div>
+//         </div>
+//         <div className="services-images">
+//           <div
+//             className="services-image-container1"
+//             style={{
+//               backgroundImage: `url(${require("../images/ourbenefits1.png")})`,
+//             }}
+//           ></div>
+//         </div>
+//       </div>
+
+//       {/* Section 2 */}
+//       <div id="customized-software-development" className="services-section">
+//         <div className="services-content">
+//           <div className="services-text">
+//             <h2>{t("empowering.section02.title")}</h2>
+//             <p className="description">
+//               {t("empowering.section02.description")}
+//             </p>
+//             <p>{t("empowering.section02.content1")}</p>
+//             <p>{t("empowering.section02.content2")}</p>
+//             <p>{t("empowering.section02.content3")}</p>
+//             <p>{t("empowering.section02.content4")}</p>
+//           </div>
+//         </div>
+//         <div className="services-images">
+//           <div
+//             className="services-image-container1"
+//             style={{
+//               backgroundImage: `url(${require("../images/ourbenefits2.png")})`,
+//             }}
+//           ></div>
+//         </div>
+//       </div>
+
+//       {/* Section 3 */}
+//       <div id="effortless-rapid-communication" className="services-section">
+//         <div className="services-content">
+//           <div className="services-text">
+//             <h2>{t("empowering.section03.title")}</h2>
+//             <p className="description">
+//               {t("empowering.section03.description")}
+//             </p>
+//             <p>{t("empowering.section03.content1")}</p>
+//             <p>{t("empowering.section03.content2")}</p>
+//             <p>{t("empowering.section03.content3")}</p>
+//             <p>{t("empowering.section03.content4")}</p>
+//           </div>
+//         </div>
+//         <div className="services-images">
+//           <div
+//             className="services-image-container1"
+//             style={{
+//               backgroundImage: `url(${require("../images/ourbenefits3.png")})`,
+//             }}
+//           ></div>
+//         </div>
+//       </div>
+
+//       {/* Section 4 */}
+//       <div id="stay-ahead-adaptive-capabilities" className="services-section">
+//         <div className="services-content">
+//           <div className="services-text">
+//             <h2>{t("empowering.section04.title")}</h2>
+//             <p className="description">
+//               {t("empowering.section04.description")}
+//             </p>
+//             <p>{t("empowering.section04.content1")}</p>
+//             <p>{t("empowering.section04.content2")}</p>
+//             <p>{t("empowering.section04.content3")}</p>
+//             <p>{t("empowering.section04.content4")}</p>
+//           </div>
+//         </div>
+//         <div className="services-images">
+//           <div
+//             className="services-image-container1"
+//             style={{
+//               backgroundImage: `url(${require("../images/ourbenefits4.png")})`,
+//             }}
+//           ></div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Empowering;
 import React, { useEffect } from "react";
 import "../styles_css/Services.css";
 import "../styles_css/Empowering.css";
 import Shadows from "../components/Shadows";
-import rightarrow from "../images/right-arrow.svg";
+import { useTranslation } from "react-i18next";
 
 const Empowering = () => {
-  // Use hash from URL for scrolling to specific sections
+  const { t } = useTranslation();
+
   useEffect(() => {
-    const hash = window.location.hash; // Get hash from URL
+    const hash = window.location.hash;
     if (hash) {
-      const element = document.querySelector(hash); // Find the element with the corresponding ID
+      const element = document.querySelector(hash);
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" }); // Smooth scroll to the element
+        element.scrollIntoView({ behavior: "smooth" });
       }
     }
   }, []);
 
   return (
     <div>
+      {/* Hero Section */}
       <div className="hero">
         <Shadows />
-        <h3 className="services-heading">Our Benefits</h3>
-        <h1 className="main-heading">
-          Our benefits cater to your convenience.
-        </h1>
-        <p className="subheading">
-          Innovating without limits, empowering your vision
-        </p>
+        <h3 className="services-heading">{t("empowering.hero.heading")}</h3>
+        <h1 className="main-heading">{t("empowering.hero.mainHeading")}</h1>
+        <p className="subheading">{t("empowering.hero.subHeading")}</p>
       </div>
 
       {/* Section 1 */}
@@ -43,10 +171,10 @@ const Empowering = () => {
             />
           </div>
           <h2 className="smart-management-title">
-            Discovering Smart Management
+            {t("empowering.section01.title")}
           </h2>
           <p className="smart-management-description">
-            Stay on top of your tasks and stay informed about what's happening.
+            {t("empowering.section01.description")}
           </p>
         </div>
         <div
@@ -59,24 +187,10 @@ const Empowering = () => {
           }}
         >
           <div className="content-box">
-            <p>
-              Empower your organization with advanced management tools designed
-              to enhance visibility, control, and decision-making.
-            </p>
-            <p>
-              Our smart management solutions keep you fully informed of key
-              metrics and operational insights, allowing you to proactively
-              address challenges before they arise.
-            </p>
-            <p>
-              Stay in sync with all aspects of your business, optimize workflow
-              efficiency, and improve strategic alignment across teams.
-            </p>
-            <p>
-              Gain real-time insights across all projects, empowering you to
-              make strategic, proactive decisions that fuel long-term success
-              and continuous improvement.
-            </p>
+            <p>{t("empowering.section01.content1")}</p>
+            <p>{t("empowering.section01.content2")}</p>
+            <p>{t("empowering.section01.content3")}</p>
+            <p>{t("empowering.section01.content4")}</p>
           </div>
         </div>
       </section>
@@ -95,11 +209,10 @@ const Empowering = () => {
             />
           </div>
           <h2 className="smart-management-title">
-            Customized Software Development
+            {t("empowering.section02.title")}
           </h2>
           <p className="smart-management-description">
-            Custom software development is the process of conceptualizing,
-            designing.
+            {t("empowering.section02.description")}
           </p>
         </div>
         <div
@@ -112,25 +225,10 @@ const Empowering = () => {
           }}
         >
           <div className="content-box">
-            <p>
-              Experience the power of software that’s built precisely to meet
-              your business needs.
-            </p>
-            <p>
-              Our customized development services take you through a
-              comprehensive process, from conceptualization to deployment,
-              ensuring that every aspect of the solution aligns with your goals.
-            </p>
-            <p>
-              With a deep focus on usability, scalability, and integration, we
-              create applications that seamlessly blend into your existing
-              infrastructure while enhancing your competitive edge.
-            </p>
-            <p>
-              Whether you need to streamline operations, automate repetitive
-              tasks, or support unique business functions, our tailored software
-              adapts to grow with you.
-            </p>
+            <p>{t("empowering.section02.content1")}</p>
+            <p>{t("empowering.section02.content2")}</p>
+            <p>{t("empowering.section02.content3")}</p>
+            <p>{t("empowering.section02.content4")}</p>
           </div>
         </div>
       </section>
@@ -149,11 +247,10 @@ const Empowering = () => {
             />
           </div>
           <h2 className="smart-management-title">
-            Effortless Rapid Communication
+            {t("empowering.section03.title")}
           </h2>
           <p className="smart-management-description">
-            Effortlessly manage your task lists and stay connected with
-            real-time updates.
+            {t("empowering.section03.description")}
           </p>
         </div>
         <div
@@ -166,32 +263,16 @@ const Empowering = () => {
           }}
         >
           <div className="content-box">
-            <p>
-              Enhance team productivity and keep everyone connected with our
-              rapid communication tools.
-            </p>
-            <p>
-              Designed to facilitate seamless interaction, our solutions ensure
-              that essential information flows quickly across departments,
-              minimizing delays and fostering real-time collaboration.
-            </p>
-            <p>
-              Whether your teams are on-site or remote, they can stay aligned on
-              tasks, updates, and projects without the hurdles of outdated
-              communication systems.
-            </p>
-            <p>
-              Keep projects moving forward efficiently, reduce miscommunication,
-              and foster an environment where collaboration and transparency
-              thrive.
-            </p>
+            <p>{t("empowering.section03.content1")}</p>
+            <p>{t("empowering.section03.content2")}</p>
+            <p>{t("empowering.section03.content3")}</p>
+            <p>{t("empowering.section03.content4")}</p>
           </div>
         </div>
       </section>
 
       {/* Section 4 */}
       <section
-        style={{ paddingBottom: "80px" }}
         id="adaptive-capabilities"
         className="smart-management-container"
       >
@@ -204,11 +285,10 @@ const Empowering = () => {
             />
           </div>
           <h2 className="smart-management-title">
-            Stay Ahead with Adaptive Capabilities
+            {t("empowering.section04.title")}
           </h2>
           <p className="smart-management-description">
-            Stay organized with your task lists and remain updated on the latest
-            development.
+            {t("empowering.section04.description")}
           </p>
         </div>
         <div
@@ -221,25 +301,10 @@ const Empowering = () => {
           }}
         >
           <div className="content-box">
-            <p>
-              In a constantly evolving market, adaptability is key to staying
-              competitive.
-            </p>
-            <p>
-              Our adaptive solutions help your business stay agile, resilient,
-              and prepared for industry shifts.
-            </p>
-            <p>
-              With tools designed to support ongoing innovation and
-              responsiveness, you can quickly pivot strategies, maintain
-              alignment with market demands, and ensure operational continuity.
-            </p>
-            <p>
-              By maintaining a proactive approach to organizational growth, we
-              enable you to not only react to changes but also anticipate and
-              leverage them to your advantage, keeping you one step ahead in
-              your industry.
-            </p>
+            <p>{t("empowering.section04.content1")}</p>
+            <p>{t("empowering.section04.content2")}</p>
+            <p>{t("empowering.section04.content3")}</p>
+            <p>{t("empowering.section04.content4")}</p>
           </div>
         </div>
       </section>

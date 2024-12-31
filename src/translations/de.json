@@ -403,5 +403,62 @@
       "title": "Beratung",
       "description": "Unsere IT-Beratungsdienste ermöglichen es Ihrem Unternehmen, aufkommende Technologien für Wettbewerbsvorteile zu nutzen. Wir bieten fachkundige Beratung zu Cloud-Lösungen, KI-Integration, Cybersicherheit und Strategien zur digitalen Transformation, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind. Indem wir technologiegetriebene Wachstumschancen identifizieren und skalierbare Lösungen implementieren, helfen wir Ihnen, die Abläufe zu optimieren, die Sicherheit zu erhöhen und in einer sich schnell entwickelnden digitalen Landschaft einen Schritt voraus zu bleiben."
     }
+  },
+  "empowering": {
+    "hero": {
+      "heading": "Unsere Vorteile",
+      "mainHeading": "Unsere Vorteile sind auf Ihren Komfort ausgerichtet.",
+      "subHeading": "Grenzenlose Innovation – So verwirklichen Sie Ihre Vision"
+    },
+    "section01": {
+      "title": "Intelligentes Management entdecken",
+      "description": "Behalten Sie den Überblick über Ihre Aufgaben und bleiben Sie informiert, was passiert.",
+      "content1": "Stärken Sie Ihr Unternehmen mit fortschrittlichen Verwaltungstools für mehr Transparenz, Kontrolle und Entscheidungsfindung.",
+      "content2": "Unsere intelligenten Managementlösungen halten Sie umfassend über wichtige Kennzahlen und operative Einblicke informiert, sodass Sie Herausforderungen proaktiv angehen können, bevor sie entstehen.",
+      "content3": "Bleiben Sie mit allen Aspekten Ihres Unternehmens auf dem Laufenden, optimieren Sie die Effizienz der Arbeitsabläufe und verbessern Sie die strategische Ausrichtung der Teams.",
+      "content4": "Erhalten Sie Echtzeit-Einblicke in alle Projekte, um strategische, proaktive Entscheidungen zu treffen, die langfristigen Erfolg und kontinuierliche Verbesserung fördern."
+    },
+    "section02": {
+      "title": "Maßgeschneiderte Softwareentwicklung",
+      "description": "Die maßgeschneiderte Softwareentwicklung ist der Prozess der Konzeption und Gestaltung.",
+      "content1": "Erleben Sie die Kraft von Software, die präzise auf die Bedürfnisse Ihres Unternehmens zugeschnitten ist.",
+      "content2": "Unsere kundenspezifischen Entwicklungsdienstleistungen begleiten Sie durch einen umfassenden Prozess, von der Konzeptualisierung bis zur Bereitstellung, und stellen sicher, dass jeder Aspekt der Lösung mit Ihren Zielen übereinstimmt.",
+      "content3": "Mit einem starken Fokus auf Benutzerfreundlichkeit, Skalierbarkeit und Integration erstellen wir Anwendungen, die sich nahtlos in Ihre bestehende Infrastruktur einfügen und Ihren Wettbewerbsvorteil steigern.",
+      "content4": "Ob Sie Betriebsabläufe optimieren, repetitive Aufgaben automatisieren oder einzigartige Geschäftsanforderungen unterstützen müssen – unsere maßgeschneiderte Software passt sich Ihrem Wachstum an."
+    },
+    "section03": {
+      "title": "Mühelose schnelle Kommunikation.",
+      "description": "Verwalten Sie Ihre Aufgabenlisten mühelos und bleiben Sie mit Echtzeit-Updates verbunden.",
+      "content1": "Verbessern Sie die Teamproduktivität und halten Sie alle mit unseren schnellen Kommunikationslösungen verbunden.",
+      "content2": "Unsere Lösungen erleichtern nahtlose Interaktionen und gewährleisten, dass wesentliche Informationen schnell über Abteilungen hinweg fließen, Verzögerungen minimiert werden und die Zusammenarbeit in Echtzeit gefördert wird.",
+      "content3": "Ob Ihre Teams vor Ort oder remote arbeiten – sie bleiben immer auf dem Laufenden über Aufgaben, Aktualisierungen und Projekte, ohne die Hürden veralteter Kommunikationssysteme.",
+      "content4": "Halten Sie Projekte effizient voran, reduzieren Sie Missverständnisse und schaffen Sie ein Umfeld, in dem Zusammenarbeit und Transparenz gedeihen."
+    },
+    "section04": {
+      "title": "Vorn bleiben mit anpassungsfähigen Fähigkeiten",
+      "description": "Behalten Sie mit Ihren Aufgabenlisten den Überblick und bleiben Sie über die neuesten Entwicklungen auf dem Laufenden.",
+      "content1": "In einem sich ständig weiterentwickelnden Markt ist Anpassungsfähigkeit der Schlüssel zur Wettbewerbsfähigkeit.",
+      "content2": "Unsere adaptiven Lösungen helfen Ihrem Unternehmen, agil, widerstandsfähig und auf Branchenveränderungen vorbereitet zu bleiben.",
+      "content3": "Mit Tools, die laufende Innovation und Reaktionsfähigkeit unterstützen, können Sie Strategien schnell umstellen, die Ausrichtung mit Marktanforderungen beibehalten und die betriebliche Kontinuität sicherstellen.",
+      "content4": "Durch einen proaktiven Ansatz für organisatorisches Wachstum ermöglichen wir Ihnen nicht nur, auf Veränderungen zu reagieren, sondern diese auch vorauszusehen und zu nutzen, um der Konkurrenz stets einen Schritt voraus zu sein."
+    }
+  },
+
+  "contactPage": {
+    "title": "Wir würden uns freuen, von Ihnen zu hören.",
+    "description": "Für Anfragen oder weitere Unterstützung kontaktieren Sie uns bitte über unsere Website oder direkt per E-Mail oder Telefon.",
+    "contactDetails": {
+      "phone": "+41767354845",
+      "email": "office@protecht.ch",
+      "address": "Zugerstrasse 72, 6340 Baar, Schweiz"
+    },
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "Email",
+      "phone": "Telefonnummer",
+      "message": "Hinterlassen Sie eine Nachricht...",
+      "submitButton": "Nachricht senden"
+    }
   }
 }

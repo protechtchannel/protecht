@@ -18,12 +18,6 @@ import coop from "../images/coop.png";
 import kwe from "../images/kwe.png";
 import ds from "../images/ds.png";
 import wirkt from "../images/wirkt.png";
-// import simcard from "../images/simcard.png";
-// import keyboard from "../images/keyboard.png";
-// import code from "../images/code.png";
-// import data2 from "../images/data-2.png";
-// import programmingArrows from "../images/programming-arrows.png";
-// import mobileProgramming from "../images/mobile-programming.png";
 import { useTranslation } from "react-i18next";
 import i18n from "../languageConfig"; // Adjust the path based on your file structure
 import Solutions from "./Solutions";

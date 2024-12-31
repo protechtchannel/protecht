@@ -348,5 +348,63 @@
       "title": "Consulting",
       "description": "Our IT consulting services empower your business to leverage emerging technologies for competitive advantage. We provide expert guidance on cloud solutions, AI integration, cybersecurity, and digital transformation strategies tailored to your unique needs. By identifying technology-driven growth opportunities and implementing scalable solutions, we help you optimize operations, enhance security, and stay ahead in a rapidly evolving digital landscape."
     }
+  },
+
+  "empowering": {
+    "hero": {
+      "heading": "Our Benefits",
+      "mainHeading": "Our benefits cater to your convenience.",
+      "subHeading": "Innovating without limits, empowering your vision"
+    },
+    "section01": {
+      "title": "Discovering Smart Management",
+      "description": "Stay on top of your tasks and stay informed about what's happening.",
+      "content1": "Empower your organization with advanced management tools designed to enhance visibility, control, and decision-making.",
+      "content2": "Our smart management solutions keep you fully informed of key metrics and operational insights, allowing you to proactively address challenges before they arise.",
+      "content3": "Stay in sync with all aspects of your business, optimize workflow efficiency, and improve strategic alignment across teams.",
+      "content4": "Gain real-time insights across all projects, empowering you to make strategic, proactive decisions that fuel long-term success and continuous improvement."
+    },
+    "section02": {
+      "title": "Customized Software Development",
+      "description": "Custom software development is the process of conceptualizing, designing.",
+      "content1": "Experience the power of software that’s built precisely to meet your business needs.",
+      "content2": "Our customized development services take you through a comprehensive process, from conceptualization to deployment, ensuring that every aspect of the solution aligns with your goals.",
+      "content3": "With a deep focus on usability, scalability, and integration, we create applications that seamlessly blend into your existing infrastructure while enhancing your competitive edge.",
+      "content4": "Whether you need to streamline operations, automate repetitive tasks, or support unique business functions, our tailored software adapts to grow with you."
+    },
+    "section03": {
+      "title": "Effortless Rapid Communication",
+      "description": "Effortlessly manage your task lists and stay connected with real-time updates.",
+      "content1": "Enhance team productivity and keep everyone connected with our rapid communication tools.",
+      "content2": "Designed to facilitate seamless interaction, our solutions ensure that essential information flows quickly across departments, minimizing delays and fostering real-time collaboration.",
+      "content3": "Whether your teams are on-site or remote, they can stay aligned on tasks, updates, and projects without the hurdles of outdated communication systems.",
+      "content4": "Keep projects moving forward efficiently, reduce miscommunication, and foster an environment where collaboration and transparency thrive."
+    },
+    "section04": {
+      "title": "Stay Ahead with Adaptive Capabilities",
+      "description": "Stay organized with your task lists and remain updated on the latest development.",
+      "content1": "In a constantly evolving market, adaptability is key to staying competitive.",
+      "content2": "Our adaptive solutions help your business stay agile, resilient, and prepared for industry shifts.",
+      "content3": "With tools designed to support ongoing innovation and responsiveness, you can quickly pivot strategies, maintain alignment with market demands, and ensure operational continuity.",
+      "content4": "By maintaining a proactive approach to organizational growth, we enable you to not only react to changes but also anticipate and leverage them to your advantage, keeping you one step ahead in your industry."
+    }
+  },
+
+  "contactPage": {
+    "title": "We would love to hear from you.",
+    "description": "For inquiries or further assistance, please contact us via our website or directly via email or phone.",
+    "contactDetails": {
+      "phone": "+41767354845",
+      "email": "office@protecht.ch",
+      "address": "Zugerstrasse 72, 6340 Baar, Switzerland"
+    },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "Leave a message...",
+      "submitButton": "Send Message"
+    }
   }
 }
