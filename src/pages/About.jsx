@@ -242,7 +242,10 @@ const About = () => {
               <div class="bottom-left-blue-bar"></div>
             </div>
           </div>
-          <div class="mobile-profile-container">
+          <div
+            class="mobile-profile-container"
+            style={{ marginBottom: "50px" }}
+          >
             <div class="mobile-profile-name">Bujar Demolli</div>
 
             <h3 class="mobile-profile-titleA">{t("profiles.bujar.title")}</h3>
@@ -285,25 +288,17 @@ const About = () => {
                   <div className="profile-description">
                     <div className="section">
                       <p className="colors">
-                        As Founder and CEO of Protecht, Muhamer Nuridini leads
-                        with 16+ years of expertise in IT, software development,
-                        and system administration.
+                        {t("profiles.muhamer.description1")}
                       </p>
                     </div>
                     <div className="section">
                       <p className="colors">
-                        He drives Protecht's mission to empower businesses
-                        through digital transformation with solutions in Custom
-                        Applications, Blockchain, AI, Cloud, Fintech, and ICT
-                        Consulting.
+                        {t("profiles.muhamer.description2")}
                       </p>
                     </div>
                     <div className="section">
                       <p className="colors">
-                        Focused on delivering tailored strategies, Muhamer
-                        fosters long-term client partnerships built on trust and
-                        innovation, providing the tools and insights necessary
-                        for sustained growth and digital excellence.
+                        {t("profiles.muhamer.description3")}
                       </p>
                     </div>
                   </div>
@@ -342,28 +337,17 @@ const About = () => {
                   <div className="profile-description">
                     <div className="section">
                       <p className="colors">
-                        With over 20 years of experience, Bujar Demolli brings
-                        visionary insights and a strategic mindset to his role
-                        as Advisor to the Board at Protecht.
+                        {t("profiles.bujar.description1")}
                       </p>
                     </div>
                     <div className="section">
                       <p className="colors">
-                        Renowned for his expertise in technology-driven
-                        initiatives, Bujar has a deep understanding of the DACH
-                        region and a proven track record in B2B markets. His
-                        focus on transformative technology and business
-                        innovation has been instrumental in building
-                        long-lasting partnerships and driving growth across
-                        markets.
+                        {t("profiles.bujar.description2")}
                       </p>
                     </div>
                     <div className="section">
                       <p className="colors">
-                        As an advisor, Bujar plays a key role in guiding
-                        Protecht’s expansion, ensuring the company remains at
-                        the forefront of digital transformation and value-driven
-                        strategies for its clients.
+                        {t("profiles.bujar.description3")}
                       </p>
                     </div>
                   </div>

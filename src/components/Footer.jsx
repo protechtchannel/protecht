@@ -126,7 +126,10 @@ const Footer = () => {
                 <img src={logo} alt="Protecht Logo" className="logo-image" />
               </a>
             </div>
-            <div style={{ marginTop: "10px", fontSize: "18px" }}>
+            <div
+              className="tagline"
+              style={{ marginTop: "10px", fontSize: "18px" }}
+            >
               {t("footer.tagline")}
             </div>
           </div>

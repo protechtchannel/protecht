@@ -193,7 +193,8 @@ p {
 .names {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 40%;
+  gap: 40px;
 }
 
 @media (max-width: 850px) {
@@ -259,8 +260,8 @@ p {
     gap: 20px;
   }
   .footer-newsletter button {
-    margin-left: 0px;
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
   }
   .footer-newsletter input[type="email"] {
     width: 100%;
@@ -276,5 +277,13 @@ p {
   .facebook {
     width: 24px !important;
     height: 14px;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .tagline {
+    display: none;
   }
 }

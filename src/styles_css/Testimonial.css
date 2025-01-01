@@ -66,6 +66,10 @@
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  cursor: grab;
+}
+.testimonial-wrapper:active {
+  cursor: grabbing;
 }
 
 .testimonial-grid {
@@ -122,6 +126,11 @@
   padding: 2rem;
   color: #ffffff;
 }
+.bluee {
+  background: linear-gradient(90deg, #4086de 30%, #163351 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 @media (max-width: 850px) {
   .testimonial-card {
@@ -134,11 +143,3 @@
     flex: 0 0 100%;
   }
 }
-
-/* .testimonial-card {
-  flex: 0 0 calc(100% / var(--slides-to-show));
-  background-color: #4086de;
-  border-radius: 30px;
-  padding: 2rem;
-  color: #ffffff;
-} */

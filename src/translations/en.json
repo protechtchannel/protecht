@@ -213,7 +213,10 @@
   },
 
   "testimonials": {
-    "title": "Hear from our customers",
+    "title": {
+      "text1": "Hear from our",
+      "text2": "customers"
+    },
     "testimonial_1": {
       "name": "Bujar Demolli",
       "title": "CEO Dreilinden",
@@ -252,7 +255,7 @@
       "name": "Muhamer Nuridini",
       "title": "CEO",
       "description1": "As Founder and CEO of Protecht, Muhamer Nuridini leads with 16+ years of expertise in IT, software development, and system administration.",
-      "description2": "He drives Protecht’s mission to empower businesses through digital transformation with solutions in Custom Applications, Blockchain, AI, Cloud, Fintech, and ICT Consulting.",
+      "description2": "He drives Protecht\u0027s mission to empower businesses through digital transformation with solutions in Custom Applications, Blockchain, AI, Cloud, Fintech, and ICT Consulting.",
       "description3": "Focused on delivering tailored strategies, Muhamer fosters long-term client partnerships built on trust and innovation, providing the tools and insights necessary for sustained growth and digital excellence."
     },
     "bujar": {
@@ -263,12 +266,13 @@
       "description3": "As an advisor, Bujar plays a key role in guiding Protecht’s expansion, ensuring the company remains at the forefront of digital transformation and value-driven strategies for its clients."
     }
   },
+
   "footer": {
     "innovative": "Innovative Project Ideas?",
     "description": "We bring your boldest ideas to life with creativity, expertise, and strategic insight. Let’s work together to turn your vision into reality and make a lasting impact.",
     "newsletterTitle": "Newsletter",
     "newsletterDescription": "Subscribe to our newsletter to get the latest Protecht news",
-    "emailPlaceholder": "Enter your email",
+    "emailPlaceholder": "Email address",
     "subscribeButton": "Subscribe",
     "successMessage": "You have successfully subscribed!",
     "errors": {
@@ -559,6 +563,12 @@
         "address": "Address: Zug, Switzerland",
         "footer": "Protecht: Your Partner in IT Excellence"
       }
+    }
+  },
+  "impressum": {
+    "hero": {
+      "heading": "Impressum",
+      "subHeading": "Innovating without limits, empowering your vision"
     }
   }
 }

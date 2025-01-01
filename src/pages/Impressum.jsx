@@ -3,8 +3,10 @@ import ImpressumImg from "../images/Impressum.jpg"; // Import your image file
 import "../styles_css/Impressum.css";
 import Shadows from "../components/Shadows";
 import "../styles_css/Terms.css";
+import { useTranslation } from "react-i18next";
 
 const Impressum = () => {
+  const { t, i18n } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleModal = () => {
@@ -12,15 +14,17 @@ const Impressum = () => {
     setIsModalOpen(!isModalOpen);
   };
 
+  const switchLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
   return (
     <div>
       <div className="hero">
         <Shadows />
 
-        <h1 className="main-heading">Impressum</h1>
-        <p className="subheading">
-          Innovating without limits, empowering your vision
-        </p>
+        <h1 className="main-heading">{t("impressum.hero.heading")}</h1>
+        <p className="subheading">{t("impressum.hero.subHeading")}</p>
       </div>
       {/* Thumbnail to open the modal */}
       <div className="bigcont" onClick={toggleModal}>

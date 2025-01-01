@@ -299,6 +299,7 @@
     "text1": "Protecht wurde in Zug, Schweiz, gegründet, um die internationale Zusammenarbeit zwischen der Schweiz, Deutschland, Österreich und Kosovo zu fördern. Mit Büros in Zug, Zürich, Wien, Frankfurt und Prishtina ist Protecht strategisch positioniert, um Innovationen in den DACH- und Balkanregionen voranzutreiben.",
     "text2": "Mit Spezialisierung auf aufkommende Technologien konzentriert sich Protecht auf AI-Lösungen und Infrastruktur, Blockchain sowie Cloud-Lösungen und -Infrastruktur. Unsere Mission ist es, Unternehmen zu ermächtigen, fortschrittliche Technologie für nachhaltiges Wachstum und digitale Transformation zu nutzen. Durch maßgeschneiderte, wirkungsvolle Lösungen setzt sich Protecht dafür ein, Unternehmen über Grenzen hinweg zu verbinden, die Grenzen des Möglichen zu erweitern und den Weg in die Zukunft der Technologie zu ebnen."
   },
+
   "profiles": {
     "muhamer": {
       "name": "Muhamer Nuridini",
@@ -321,7 +322,7 @@
     "description": "Wir bringen Ihre kühnsten Ideen mit Kreativität, Fachwissen und strategischem Weitblick zum Leben. Lassen Sie uns zusammenarbeiten, um Ihre Vision in die Realität umzusetzen und einen bleibenden Eindruck zu hinterlassen.",
     "newsletterTitle": "Newsletter",
     "newsletterDescription": "Abonnieren Sie unseren Newsletter, um die neuesten Nachrichten von Protecht zu erhalten.",
-    "emailPlaceholder": "E-Mail-Adresse",
+    "emailPlaceholder": "Email Adresse",
     "subscribeButton": "Abonnieren",
     "successMessage": "Sie haben sich erfolgreich angemeldet!",
     "errors": {
@@ -614,6 +615,13 @@
         "address": "Adresse: Zug, Switzerland",
         "footer": "Protecht: Ihr Partner für IT-Exzellenz"
       }
+    }
+  },
+
+  "impressum": {
+    "hero": {
+      "heading": "Impressum",
+      "subHeading": "Grenzenlose Innovation – So verwirklichen Sie Ihre Vision"
     }
   }
 }
