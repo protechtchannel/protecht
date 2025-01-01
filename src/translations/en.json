@@ -408,7 +408,10 @@
       "email": "Email",
       "phone": "Phone Number",
       "message": "Leave a message...",
-      "submitButton": "Send Message"
+      "submitButton": "Send Message",
+      "submissionSuccess": "Your message has been sent successfully!",
+      "submissionSuccess2": " We will get back to you as soon as possible.",
+      "closeButton": "Close"
     }
   },
 

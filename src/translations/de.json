@@ -3,7 +3,7 @@
     "home": "Startseite",
     "services": "Dienstleistungen",
     "empowering": "Stärkung",
-    "about": "Über uns",
+    "about": "Über",
     "contact": "Kontakt"
   },
   "home": {
@@ -459,7 +459,10 @@
       "email": "Email",
       "phone": "Telefonnummer",
       "message": "Hinterlassen Sie eine Nachricht...",
-      "submitButton": "Nachricht senden"
+      "submitButton": "Nachricht senden",
+      "submissionSuccess": "Ihre Nachricht wurde erfolgreich versendet!",
+      "submissionSuccess2": "Wir melden uns so schnell wie möglich bei Ihnen.",
+      "closeButton": "Schließen"
     }
   },
 

@@ -303,6 +303,10 @@ p .highlight {
 }
 
 @media (max-width: 950px) {
+  .highlight2 {
+    font-size: 70px !important;
+    margin-top: 0;
+  }
   .solution-icon {
     margin-bottom: 15px;
   }
@@ -345,7 +349,7 @@ p .highlight {
   }
   .main-heading2 {
     text-align: center;
-    font-size: 60px !important;
+    font-size: 70px !important;
   }
   .hero-description {
     text-align: center;
@@ -390,8 +394,13 @@ p .highlight {
     display: flex;
     flex-direction: column;
     gap: 16px; /* Optional: Adjust spacing between items */
-  }
 
+    padding: 0px 0px 40px;
+  }
+  .black-white.endless {
+    text-align: center;
+    margin: 0 auto;
+  }
   .paragraph.we {
     width: 100%;
   }

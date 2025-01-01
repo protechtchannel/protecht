@@ -163,6 +163,9 @@ const Contact = () => {
               <p style={{ textAlign: "center" }}>
                 {t("contactPage.form.submissionSuccess")}
               </p>
+              <p style={{ textAlign: "center" }}>
+                {t("contactPage.form.submissionSuccess2")}
+              </p>
               <button onClick={() => setIsSubmitted(false)}>
                 {t("contactPage.form.closeButton")}
               </button>

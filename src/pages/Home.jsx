@@ -50,57 +50,6 @@ const Home = () => {
     { href: "https://wirkt.eu/", img: wirkt, altKey: "home.logos.wirkt" },
   ];
 
-  // Solutions Data
-  // const solutions = [
-  //   {
-  //     id: "custom-application",
-  //     titleKey: "home.solutions.customApplication.title",
-  //     descriptionKey: "home.solutions.customApplication.description",
-  //     img: simcard,
-  //   },
-  //   {
-  //     id: "blockchain-development",
-  //     titleKey: "home.solutions.blockchainDevelopment.title",
-  //     descriptionKey: "home.solutions.blockchainDevelopment.description",
-  //     img: keyboard,
-  //   },
-  //   {
-  //     id: "ai-cloud-solutions",
-  //     titleKey: "home.solutions.aiCloudSolutions.title",
-  //     descriptionKey: "home.solutions.aiCloudSolutions.description",
-  //     img: code,
-  //   },
-  //   {
-  //     id: "ai-cloud-infrastructure",
-  //     titleKey: "home.solutions.aiCloudInfrastructure.title",
-  //     descriptionKey: "home.solutions.aiCloudInfrastructure.description",
-  //     img: data2,
-  //   },
-  //   {
-  //     id: "cloud-solution-hosting",
-  //     titleKey: "home.solutions.cloudSolutionHosting.title",
-  //     descriptionKey: "home.solutions.cloudSolutionHosting.description",
-  //     img: data2,
-  //   },
-  //   {
-  //     id: "fintech",
-  //     titleKey: "home.solutions.fintech.title",
-  //     descriptionKey: "home.solutions.fintech.description",
-  //     img: programmingArrows,
-  //   },
-  //   {
-  //     id: "erp-sap",
-  //     titleKey: "home.solutions.erpSap.title",
-  //     descriptionKey: "home.solutions.erpSap.description",
-  //     img: mobileProgramming,
-  //   },
-  //   {
-  //     id: "it-support",
-  //     titleKey: "home.solutions.itSupport.title",
-  //     descriptionKey: "home.solutions.itSupport.description",
-  //     img: code,
-  //   },
-  // ];
   const switchLanguage = (language) => {
     i18n.changeLanguage(language);
   };
@@ -176,7 +125,7 @@ const Home = () => {
       </div>
 
       <section class="endless-solutions">
-        <h1 class="black-white">{t("home.endlessSolutionsTitle")}</h1>
+        <h1 class="black-white endless">{t("home.endlessSolutionsTitle")}</h1>
         <p class="endless-text">{t("home.endlessSolutionsDescription")}</p>
       </section>
       <div className="solutions-section"></div>

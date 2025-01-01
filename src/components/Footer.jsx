@@ -56,7 +56,7 @@ const Footer = () => {
         <div className="first-section1">
           <div className="first-section">
             <div className="innovative">{t("footer.innovative")}</div>
-            <p>{t("footer.description")}</p>
+            <p className="description">{t("footer.description")}</p>
           </div>
 
           <div
@@ -65,6 +65,7 @@ const Footer = () => {
           >
             <div className="footer-newsletter">
               <div
+                className="newsletter-title"
                 style={{
                   fontSize: "30px",
                   paddingBottom: "10px",
@@ -74,6 +75,7 @@ const Footer = () => {
                 {t("footer.newsletterTitle")}
               </div>
               <div
+                className="newsletter-description"
                 style={{
                   color: "#C2C2C2",
                   paddingBottom: "10px",

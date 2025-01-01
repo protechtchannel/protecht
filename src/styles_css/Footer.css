@@ -286,4 +286,16 @@ p {
   .tagline {
     display: none;
   }
+  .newsletter-title,
+  .newsletter-description,
+  .description {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .description {
+    padding-top: 20px;
+  }
+  .first-section1 {
+    padding: 0px;
+  }
 }
