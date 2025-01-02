@@ -119,27 +119,154 @@
   width: 100%;
 }
 
-.testimonial-card {
-  flex: 0 0 33.333%;
-  background-color: #4086de;
-  border-radius: 30px;
-  padding: 2rem;
-  color: #ffffff;
-}
 .bluee {
   background: linear-gradient(90deg, #4086de 30%, #163351 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 850px) {
+.carousel-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.carousel-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.carousel-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.carousel-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.carousel-button {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+  background-color: #e6e3e3c0;
+}
+
+.carousel-button:disabled {
+  color: white;
+  cursor: not-allowed;
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  padding-right: 20px;
+}
+
+.card1 {
+  background-color: #4086de;
+  border-radius: 30px;
+  padding: 2rem;
+  color: #ffffff;
+  min-height: 400px;
+}
+
+.card-title2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  font-size: 14px;
+  color: #666;
+}
+.embla__slide {
+  flex: 0 0 33.33%;
+}
+.arrows {
+  width: 25px;
+  height: 25px;
+}
+.carousel-header-top {
+  padding-bottom: 20px;
+}
+.arrows:hover {
+  filter: invert(27%) sepia(87%) saturate(748%) hue-rotate(192deg)
+    brightness(92%) contrast(88%);
+}
+
+@media (max-width: 1170px) {
+  .card1 {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .card1 {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 950px) {
   .testimonial-card {
+    flex: 0 0 33.33%;
+  }
+  .embla__slide {
     flex: 0 0 50%;
+  }
+  .card1 {
+    min-height: 400px;
   }
 }
 
 @media (max-width: 768px) {
+  .carousel-header-top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .slider-title {
+    margin-top: 0;
+  }
+  .button-group {
+    margin-bottom: 20px;
+  }
   .testimonial-card {
     flex: 0 0 100%;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+  }
+  .card1 {
+    min-height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .slider-title {
+    text-align: center;
   }
 }

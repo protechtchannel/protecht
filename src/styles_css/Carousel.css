@@ -6,7 +6,7 @@
   user-select: none;
   width: 90%;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
   box-sizing: border-box;
@@ -99,7 +99,7 @@
     margin-top: 50px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   .parent-carousel {
     margin-top: 120px;
   }
@@ -107,5 +107,15 @@
 @media (max-width: 440px) {
   .parent-carousel {
     margin-top: 200px;
+  }
+}
+@media (max-width: 350px) {
+  .parent-carousel {
+    margin-top: 240px;
+  }
+}
+@media (max-width: 330px) {
+  .parent-carousel {
+    margin-top: 300px;
   }
 }

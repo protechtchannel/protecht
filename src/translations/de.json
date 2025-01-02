@@ -266,7 +266,10 @@
   },
 
   "testimonials": {
-    "title": "Hören Sie von unseren Kunden",
+    "title": {
+      "text1": "Hören Sie von unseren",
+      "text2": "Kunden"
+    },
     "testimonial_1": {
       "name": "Bujar Demolli",
       "title": "CEO Dreilinden",

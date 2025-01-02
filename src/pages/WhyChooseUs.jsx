@@ -40,10 +40,7 @@ function WhyChooseUs() {
 
   return (
     <div className="containeR">
-      <h1
-        className="black-white3"
-        style={{ paddingTop: "40px", paddingBottom: "20px" }}
-      >
+      <h1 className="black-white3" style={{ paddingTop: "60px" }}>
         {t("whyChooseUs.title")}
       </h1>
 
