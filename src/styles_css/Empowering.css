@@ -53,7 +53,7 @@
 
 /* Right Section */
 .smart-management-right {
-  flex: 2;
+  flex: 1.5 1;
   background-color: #4086de; /* Blue background */
   color: #fff;
   border-radius: 20px;
