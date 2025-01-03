@@ -8,6 +8,7 @@ import { NavLink } from "react-router-dom";
 import { db } from "../database_connection/firebase";
 import { collection, addDoc } from "firebase/firestore";
 import { useTranslation } from "react-i18next";
+const currentYear = new Date().getFullYear();
 
 const Footer = () => {
   const { t, i18n } = useTranslation(); // Access the translation functions
@@ -156,7 +157,9 @@ const Footer = () => {
         </div>
 
         <div className="rights">
-          <p>© 2025 Protecht. {t("footer.rights")}</p>
+          <p>
+            © {currentYear} Protecht. {t("footer.rights")}
+          </p>
 
           <div className="social-icons">
             <div className="language">
