@@ -239,6 +239,7 @@ p {
   .footer-newsletter {
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 0;
   }
 
   .footer-bottom {
