@@ -70,7 +70,7 @@ const Terms = () => {
               03. {t("terms.sections.03.title")}
             </strong>
           </p>
-          <p>{t("terms.sections.03.contentNote")}</p>
+          <p>{t("terms.sections.03.text")}</p>
           <ul>
             {t("terms.sections.03.content", { returnObjects: true }).map(
               (item, index) => (
