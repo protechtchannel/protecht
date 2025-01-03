@@ -302,4 +302,8 @@ p {
   .first-section1 {
     padding: 0px;
   }
+  .success-message {
+    margin: 0 auto;
+    padding-top: 20px;
+  }
 }

@@ -115,6 +115,7 @@ const Footer = () => {
                     marginTop: "10px",
                     fontSize: "16px",
                   }}
+                  className="success-message"
                 >
                   {t("footer.successMessage")}
                 </p>
