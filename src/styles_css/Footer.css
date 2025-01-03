@@ -241,6 +241,9 @@ p {
     align-items: flex-start;
     margin-bottom: 0;
   }
+  .footer-container p {
+    font-size: 16px;
+  }
 
   .footer-bottom {
     flex-direction: column;
