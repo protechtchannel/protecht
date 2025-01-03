@@ -396,7 +396,7 @@ p .highlight {
     display: flex;
     flex-direction: column;
     gap: 16px; /* Optional: Adjust spacing between items */
-
+    width: 95%;
     padding: 0px 0px 40px;
   }
   .black-white.endless {
