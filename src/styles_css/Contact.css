@@ -163,7 +163,11 @@ textarea::-webkit-input-placeholder {
     width: 100%;
   }
 }
-
+@media (max-width: 700px) {
+  .highlight {
+    font-size: 50px;
+  }
+}
 @media (max-width: 480px) {
   .contact-info h1 {
     font-size: 1.2rem;

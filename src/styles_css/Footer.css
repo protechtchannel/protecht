@@ -229,6 +229,9 @@ p {
 }
 
 @media (max-width: 768px) {
+  .first-section p {
+    text-align: center;
+  }
   .icon {
     width: 25px !important;
     height: 23px !important;
@@ -260,14 +263,15 @@ p {
     gap: 20px;
   }
   .footer-newsletter button {
-    width: 60%;
+    width: 45%;
     margin: 0 auto;
+    margin-top: 10px;
   }
   .footer-newsletter input[type="email"] {
     width: 100%;
   }
   .innovative {
-    font-size: 65px;
+    font-size: 55px;
   }
   .instagram {
     width: 30px !important;

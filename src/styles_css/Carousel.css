@@ -88,6 +88,9 @@
 
     display: flex;
   }
+  .carousel-item {
+    width: 200px;
+  }
 }
 @media (max-width: 550px) {
   .parent-carousel {
@@ -109,7 +112,7 @@
     margin-top: 200px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 376px) {
   .parent-carousel {
     margin-top: 240px;
   }

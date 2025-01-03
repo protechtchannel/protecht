@@ -71,7 +71,7 @@
     flex: 1.5 1;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
   .smart-management-container {
     flex-direction: column;
     padding-bottom: 0px;

@@ -156,7 +156,7 @@ const Footer = () => {
         </div>
 
         <div className="rights">
-          <p>© 2024 Protecht. {t("footer.rights")}</p>
+          <p>© 2025 Protecht. {t("footer.rights")}</p>
 
           <div className="social-icons">
             <div className="language">
