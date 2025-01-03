@@ -216,114 +216,119 @@ const Header = () => {
   return (
     <div style={{ width: "100%", backgroundColor: "black" }}>
       <header className="header">
-        {/* Logo Section */}
-        <div className="logo">
-          <a href="/">
-            <img src={logo} alt="Protecht Logo" className="logo-image" />
-          </a>
+        <div className="headerContainer">
+          {/* Logo Section */}
+          <div className="logo">
+            <a href="/">
+              <img src={logo} alt="Protecht Logo" className="logo-image" />
+            </a>
+          </div>
+
+          {/* Conditional Rendering for Language Switcher and Menu Icon */}
+          {isMobile ? (
+            <div className="mobile-header">
+              <div className="language1 mobile-language">
+                <a
+                  href="#"
+                  onClick={() => switchLanguage("en")}
+                  className={i18n.language === "en" ? "active" : ""}
+                  style={{ marginRight: "10px", fontSize: "14px" }}
+                >
+                  EN
+                </a>
+                <a
+                  href="#"
+                  onClick={() => switchLanguage("de")}
+                  className={i18n.language === "de" ? "active" : ""}
+                  style={{ fontSize: "14px" }}
+                >
+                  DE
+                </a>
+              </div>
+              <img
+                src={menuIcon}
+                alt="Menu Icon"
+                className="menu-icon"
+                ref={menuIconRef}
+                onClick={toggleMenu}
+              />
+            </div>
+          ) : (
+            <div className="desktop-header">
+              <div className="language1 desktop-language">
+                <a
+                  href="#"
+                  onClick={() => switchLanguage("en")}
+                  className={i18n.language === "en" ? "active" : ""}
+                  style={{ marginRight: "20px" }}
+                >
+                  EN
+                </a>
+                <a
+                  href="#"
+                  onClick={() => switchLanguage("de")}
+                  className={i18n.language === "de" ? "active" : ""}
+                >
+                  DE
+                </a>
+              </div>
+              <nav className="navv">
+                <ul className="nav-links">
+                  <li>
+                    <NavLink
+                      to="/"
+                      className={({ isActive }) => (isActive ? "active" : "")}
+                    >
+                      {t("header.home")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/services"
+                      className={({ isActive }) => (isActive ? "active" : "")}
+                    >
+                      {t("header.services")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/empowering"
+                      className={({ isActive }) => (isActive ? "active" : "")}
+                    >
+                      {t("header.empowering")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/about"
+                      className={({ isActive }) => (isActive ? "active" : "")}
+                    >
+                      {t("header.about")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/contact"
+                      className={({ isActive }) => (isActive ? "active" : "")}
+                    >
+                      {t("header.contact")}
+                    </NavLink>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          )}
+
+          {/* Conditionally Render the Menu Component */}
+          {isMenuOpen && (
+            <div
+              ref={menuRef}
+              style={{ position: "absolute", top: 30, right: `0` }}
+            >
+              <Menu />
+            </div>
+          )}
         </div>
-
-        {/* Conditional Rendering for Language Switcher and Menu Icon */}
-        {isMobile ? (
-          <div className="mobile-header">
-            <div className="language1 mobile-language">
-              <a
-                href="#"
-                onClick={() => switchLanguage("en")}
-                className={i18n.language === "en" ? "active" : ""}
-                style={{ marginRight: "10px", fontSize: "14px" }}
-              >
-                EN
-              </a>
-              <a
-                href="#"
-                onClick={() => switchLanguage("de")}
-                className={i18n.language === "de" ? "active" : ""}
-                style={{ fontSize: "14px" }}
-              >
-                DE
-              </a>
-            </div>
-            <img
-              src={menuIcon}
-              alt="Menu Icon"
-              className="menu-icon"
-              ref={menuIconRef}
-              onClick={toggleMenu}
-            />
-          </div>
-        ) : (
-          <div className="desktop-header">
-            <div className="language1 desktop-language">
-              <a
-                href="#"
-                onClick={() => switchLanguage("en")}
-                className={i18n.language === "en" ? "active" : ""}
-                style={{ marginRight: "20px" }}
-              >
-                EN
-              </a>
-              <a
-                href="#"
-                onClick={() => switchLanguage("de")}
-                className={i18n.language === "de" ? "active" : ""}
-              >
-                DE
-              </a>
-            </div>
-            <nav className="navv">
-              <ul className="nav-links">
-                <li>
-                  <NavLink
-                    to="/"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    {t("header.home")}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    {t("header.services")}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/empowering"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    {t("header.empowering")}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/about"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    {t("header.about")}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/contact"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    {t("header.contact")}
-                  </NavLink>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        )}
-
-        {/* Conditionally Render the Menu Component */}
-        {isMenuOpen && (
-          <div ref={menuRef}>
-            <Menu />
-          </div>
-        )}
       </header>
     </div>
   );
