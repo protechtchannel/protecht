@@ -43,7 +43,7 @@
     },
     "blockchainDevelopment": {
       "id": "blockchain-development",
-      "title": "Blockchain-Entwicklung",
+      "title": "Blockchain Entwicklung",
       "description": [
         "Maßgeschneiderte Blockchain-Anwendungen ",
         {
@@ -55,9 +55,9 @@
     },
     "aiCloudSolutions": {
       "id": "ai-cloud-solutions",
-      "title": "KI-Cloud-Lösungen",
+      "title": "AI Cloud Lösungen",
       "description": [
-        "KI-gestützte Cloud-Lösungen ",
+        "AI-gestützte Cloud-Lösungen ",
         {
           "text": "automatisieren",
           "color": "#0088ea"
@@ -77,7 +77,7 @@
     },
     "aiCloudInfrastructure": {
       "id": "ai-cloud-infrastructure",
-      "title": "KI-Cloud-Infrastruktur",
+      "title": "AI Cloud Infrastruktur",
       "description": [
         "Cloud-Hosting bietet ",
         {
@@ -94,7 +94,7 @@
     },
     "cloudSolutionHosting": {
       "id": "cloud-solution-hosting",
-      "title": "Cloud-Lösungen und Hosting",
+      "title": "Cloud Lösungen und Hosting",
       "description": [
         "Stärken Sie Ihr Unternehmen mit ",
         {
@@ -135,7 +135,7 @@
       "id": "erp-sap",
       "title": "ERP / SAP",
       "description": [
-        "Optimieren Sie die Abläufe mit einem Fokus auf SAP-ERP-Lösungen, um ",
+        "Optimieren Sie die Abläufe mit einem Fokus auf SAP/ERP Lösungen, um ",
         {
           "text": "optimierte Workflows",
           "color": "#0088ea"
@@ -155,9 +155,9 @@
     },
     "itSupport": {
       "id": "it-support",
-      "title": "IT-Support",
+      "title": "IT Support",
       "description": [
-        "Unser IT-Support löst Probleme und wartet Ihre Infrastruktur, ",
+        "Unser IT Support löst Probleme und wartet Ihre Infrastruktur, ",
         {
           "text": "damit Ihre Systeme immer laufen",
           "color": "#0088ea"
@@ -283,10 +283,10 @@
     "testimonial_3": {
       "name": "Arber Arifi",
       "title": "Vorsitzender des Verwaltungsrats von reYa",
-      "text": "Protechts Expertise in KI und Cloud war entscheidend für die Transformation unseres Rechenzentrums in ein grünes, KI-gesteuertes Kraftwerk. Ihre Fähigkeiten und ihr Engagement waren der Schlüssel zum Erfolg unserer reYa-Cloud und unseres KI-Rechenzentrums, sodass wir die Herausforderungen der modernen Technologie meistern können."
+      "text": "Protechts Expertise in AI und Cloud war entscheidend für die Transformation unseres Rechenzentrums in ein grünes, AI-gesteuertes Kraftwerk. Ihre Fähigkeiten und ihr Engagement waren der Schlüssel zum Erfolg unserer reYa-Cloud und unseres AI-Rechenzentrums, sodass wir die Herausforderungen der modernen Technologie meistern können."
     },
     "testimonial_4": {
-      "name": "John Doe",
+      "name": "Julian Richter - Founder & Managing Wirk Partner",
       "title": "Gründer und geschäftsführender Wirk-Partner",
       "text": "Der Learning Circle von Protecht bietet personalisierte Einzel-Lernunterstützung für Mittelschüler und hilft ihnen, akademische Leistungen zu erbringen und sich persönlich weiterzuentwickeln. Er hat über 300 Schüler in fast 5.000 Sitzungen unterstützt."
     }
@@ -364,22 +364,22 @@
     },
     "section02": {
       "number": "02",
-      "title": "Blockchain-Entwicklung",
+      "title": "Blockchain Entwicklung",
       "description": "Ermächtigen Sie Ihr Unternehmen mit maßgeschneiderten Blockchain-Lösungen, die unübertroffene Sicherheit, Transparenz und operative Effizienz bieten. Unsere Blockchain-Anwendungen sind darauf ausgelegt, Vertrauen zu fördern und die Agilität in verschiedenen Branchen zu verbessern, von Finanzen und Lieferketten bis hin zu Gesundheitswesen und Logistik. Durch die Implementierung dezentraler Technologien ermöglichen wir sichere Transaktionen, optimierte Prozesse und den Austausch von Echtzeitdaten, die definieren, wie Sie im digitalen Zeitalter Geschäfte tätigen."
     },
     "section03": {
       "number": "03",
-      "title": "AI-Cloud-Lösungen",
-      "description": "Nutzen Sie das Potenzial von KI-gesteuerten Cloud-Lösungen, um Ihr Unternehmen zu transformieren. Unsere intelligente Cloud-Infrastruktur automatisiert komplexe Prozesse, extrahiert umsetzbare Erkenntnisse aus umfangreichen Daten und verbessert die Entscheidungsfindungsfähigkeiten. Unsere KI-Cloud-Lösungen sind darauf ausgelegt, mit Ihren Bedürfnissen zu wachsen und ermöglichen Ihnen, smartere, datengestützte Entscheidungen zu treffen, die Leistung zu optimieren und wirkungsvolle Ergebnisse in allen Bereichen Ihrer Organisation zu erzielen."
+      "title": "AI Cloud Lösungen",
+      "description": "Nutzen Sie das Potenzial von AI-gesteuerten Cloud-Lösungen, um Ihr Unternehmen zu transformieren. Unsere intelligente Cloud-Infrastruktur automatisiert komplexe Prozesse, extrahiert umsetzbare Erkenntnisse aus umfangreichen Daten und verbessert die Entscheidungsfindungsfähigkeiten. Unsere AI-Cloud-Lösungen sind darauf ausgelegt, mit Ihren Bedürfnissen zu wachsen und ermöglichen Ihnen, smartere, datengestützte Entscheidungen zu treffen, die Leistung zu optimieren und wirkungsvolle Ergebnisse in allen Bereichen Ihrer Organisation zu erzielen."
     },
     "section04": {
       "number": "04",
-      "title": "AI-Cloud-Infrastruktur",
-      "description": "Nutzen Sie die leistungsstarke KI-Cloud-Infrastruktur, die durch GPU-beschleunigtes Computing angetrieben wird, um fortschrittliche maschinelles Lernen und Deep Learning-Fähigkeiten freizuschalten. Unsere Infrastruktur kombiniert skalierbare Cloud-Ressourcen mit modernen GPUs, die für die Verarbeitung großer Datensätze, das Training komplexer Modelle und die Unterstützung von Echtzeit-KI-Arbeitslasten optimiert sind. Sie ist auf rechnerische Effizienz ausgelegt und ermöglicht es Unternehmen, ressourcenintensive KI-Anwendungen nahtlos auszuführen, schnellere Verarbeitungszeiten, verbesserte Datenanalysen und beschleunigte Modellbereitstellungen zu erreichen."
+      "title": "AI Cloud Infrastruktur",
+      "description": "Nutzen Sie die leistungsstarke AI-Cloud-Infrastruktur, die durch GPU-beschleunigtes Computing angetrieben wird, um fortschrittliche maschinelles Lernen und Deep Learning-Fähigkeiten freizuschalten. Unsere Infrastruktur kombiniert skalierbare Cloud-Ressourcen mit modernen GPUs, die für die Verarbeitung großer Datensätze, das Training komplexer Modelle und die Unterstützung von Echtzeit-AI-Arbeitslasten optimiert sind. Sie ist auf rechnerische Effizienz ausgelegt und ermöglicht es Unternehmen, ressourcenintensive AI-Anwendungen nahtlos auszuführen, schnellere Verarbeitungszeiten, verbesserte Datenanalysen und beschleunigte Modellbereitstellungen zu erreichen."
     },
     "section05": {
       "number": "05",
-      "title": "Cloud-Lösungen und Hosting",
+      "title": "Cloud Lösungen und Hosting",
       "description": "Stellen Sie mit unseren umfassenden Netzwerk- und Systemadministrationsdiensten eine widerstandsfähige und optimierte IT-Infrastruktur sicher. Unser Team bietet proaktive Überwachung, schnelle Problemlösungen und kontinuierliches Leistungs-Tuning, um sicherzustellen, dass Ihre Abläufe reibungslos funktionieren. Vom Einrichten sicherer Netzwerke bis zur Aufrechterhaltung der Systemstabilität arbeiten wir daran, Störungen zu minimieren, die Zuverlässigkeit zu erhöhen und die sich entwickelnden Bedürfnisse Ihres Unternehmens zu unterstützen, um sicherzustellen, dass Ihre IT-Umgebung robust, effizient und sicher ist."
     },
     "section06": {
@@ -394,18 +394,18 @@
     },
     "section08": {
       "number": "08",
-      "title": "IT-Support",
+      "title": "IT Support",
       "description": "Unsere IT-Support-Dienste sind darauf ausgelegt, eine stabile, sichere und belastbare IT-Infrastruktur aufrechtzuerhalten, die Ihre Unternehmensziele unterstützt. Von schneller Fehlersuche und proaktiver Überwachung bis hin zu umfassender Wartung stellen wir sicher, dass Ihre Systeme mit minimalen Ausfallzeiten auf höchster Leistung arbeiten. Unser Team arbeitet eng mit Ihnen zusammen, um potenzielle Probleme zu identifizieren und zu lösen, bevor sie die Produktivität beeinträchtigen, und statten Ihr Unternehmen mit zuverlässigem IT-Support aus, der sich an die sich entwickelnden Bedürfnisse anpasst."
     },
     "section09": {
       "number": "09",
-      "title": "Netzwerk- und Systemadministration",
+      "title": "Netzwerk und Systemadministration",
       "description": "Stellen Sie mit unseren umfassenden Netzwerk- und Systemadministrationsdiensten eine widerstandsfähige und optimierte IT-Infrastruktur sicher. Unser Team bietet proaktive Überwachung, schnelle Problemlösungen und kontinuierliches Leistungs-Tuning, um sicherzustellen, dass Ihre Abläufe reibungslos funktionieren. Vom Einrichten sicherer Netzwerke bis zur Aufrechterhaltung der Systemstabilität arbeiten wir daran, Störungen zu minimieren, die Zuverlässigkeit zu erhöhen und die sich entwickelnden Bedürfnisse Ihres Unternehmens zu unterstützen, um sicherzustellen, dass Ihre IT-Umgebung robust, effizient und sicher ist."
     },
     "section10": {
       "number": "10",
       "title": "Beratung",
-      "description": "Unsere IT-Beratungsdienste ermöglichen es Ihrem Unternehmen, aufkommende Technologien für Wettbewerbsvorteile zu nutzen. Wir bieten fachkundige Beratung zu Cloud-Lösungen, KI-Integration, Cybersicherheit und Strategien zur digitalen Transformation, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind. Indem wir technologiegetriebene Wachstumschancen identifizieren und skalierbare Lösungen implementieren, helfen wir Ihnen, die Abläufe zu optimieren, die Sicherheit zu erhöhen und in einer sich schnell entwickelnden digitalen Landschaft einen Schritt voraus zu bleiben."
+      "description": "Unsere IT-Beratungsdienste ermöglichen es Ihrem Unternehmen, aufkommende Technologien für Wettbewerbsvorteile zu nutzen. Wir bieten fachkundige Beratung zu Cloud-Lösungen, AI-Integration, Cybersicherheit und Strategien zur digitalen Transformation, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind. Indem wir technologiegetriebene Wachstumschancen identifizieren und skalierbare Lösungen implementieren, helfen wir Ihnen, die Abläufe zu optimieren, die Sicherheit zu erhöhen und in einer sich schnell entwickelnden digitalen Landschaft einen Schritt voraus zu bleiben."
     }
   },
   "empowering": {
@@ -496,7 +496,7 @@
       "01": {
         "title": "Definitionen",
         "content": {
-          "protecht": "Bezieht sich auf unser Unternehmen, das IT-Lösungen anbietet, einschließlich maßgeschneiderter Anwendungen, Blockchain-Entwicklung, KI-Lösungen, Cloud-Services, IT-Support und Beratung.",
+          "protecht": "Bezieht sich auf unser Unternehmen, das IT-Lösungen anbietet, einschließlich maßgeschneiderter Anwendungen, Blockchain-Entwicklung, AI-Lösungen, Cloud-Services, IT-Support und Beratung.",
           "services": "Alle Produkte, Dienstleistungen und Lösungen, die von Protecht bereitgestellt werden.",
           "user": "Jede Person oder Organisation, die auf unsere Dienstleistungen zugreift oder diese nutzt."
         }
@@ -511,7 +511,7 @@
         "content": [
           "Maßgeschneiderte Anwendungsentwicklung",
           "Blockchain-Lösungen",
-          "Künstliche Intelligenz (KI) Entwicklung in der Cloud und vor Ort",
+          "Künstliche Intelligenz (AI) Entwicklung in der Cloud und vor Ort",
           "Cloud-Computing-Dienste",
           "IT-Support und Beratung"
         ],
@@ -560,7 +560,7 @@
         "points": [
           "Persönliche Informationen: Name, E-Mail-Adresse, Telefonnummer, Geschäftsinformationen und Zahlungsdetails (sofern angegeben).",
           "Nutzungsdaten: Informationen über Ihre Interaktionen mit unserer Website, wie IP-Adresse, Browsertyp und besuchte Seiten.",
-          "Cookies: Kleine Dateien, die auf Ihrem Gerät gespeichert werden, um Ihr Surferlebnis zu verbessern."
+          "CooAIes: Kleine Dateien, die auf Ihrem Gerät gespeichert werden, um Ihr Surferlebnis zu verbessern."
         ]
       },
       "02": {
@@ -599,16 +599,16 @@
         "note": "Um diese Rechte auszuüben, kontaktieren Sie uns unter den unten angegebenen Details."
       },
       "06": {
-        "title": "Cookies und Tracking",
-        "content": "Protecht verwendet Cookies, um das Benutzererlebnis zu verbessern. Sie können Cookies über Ihre Browsereinstellungen verwalten oder deaktivieren, dies kann jedoch Ihren Zugriff auf bestimmte Funktionen beeinträchtigen."
+        "title": "CooAIes und TracAIng",
+        "content": "Protecht verwendet CooAIes, um das Benutzererlebnis zu verbessern. Sie können CooAIes über Ihre Browsereinstellungen verwalten oder deaktivieren, dies kann jedoch Ihren Zugriff auf bestimmte Funktionen beeinträchtigen."
       },
       "07": {
         "title": "Links zu Drittanbietern",
         "content": "Unsere Website kann Links zu externen Websites enthalten. Protecht ist nicht für die Datenschutzpraktiken dieser Drittanbieter verantwortlich."
       },
       "08": {
-        "title": "Datenschutz für Kinder",
-        "content": "Die Dienste von Protecht richten sich nicht an Kinder unter 16 Jahren. Wir erfassen wissentlich keine personenbezogenen Daten von Kindern."
+        "title": "Datenschutz für AInder",
+        "content": "Die Dienste von Protecht richten sich nicht an AInder unter 16 Jahren. Wir erfassen wissentlich keine personenbezogenen Daten von AIndern."
       },
       "09": {
         "title": "Änderungen dieser Datenschutzrichtlinie",

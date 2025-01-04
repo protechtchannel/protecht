@@ -7,6 +7,7 @@ import code from "../images/code.png";
 import data2 from "../images/data-2.png";
 import programmingArrows from "../images/programming-arrows.png";
 import mobileProgramming from "../images/mobile-programming.png";
+import { useNavigate } from "react-router-dom";
 
 const solutionIcons = {
   "custom-application": simcard,
@@ -20,13 +21,21 @@ const solutionIcons = {
 };
 
 const Solutions = () => {
+  const navigate = useNavigate(); // React Router navigate function
   const { t } = useTranslation();
   const solutions = Object.values(t("solutions", { returnObjects: true }));
-
+  const handleNavigate = (id) => {
+    navigate(`/services#${id}`); // Navigate to the services page with the hash
+  };
   return (
     <div className="solutions-grid">
       {solutions.map((solution, index) => (
-        <div key={index} className="solution-item">
+        <div
+          key={index}
+          className="solution-item"
+          onClick={() => handleNavigate(solution.id)} // Add onClick handler for navigation
+          style={{ cursor: "pointer" }} // Add pointer cursor for better UX
+        >
           <img
             src={solutionIcons[solution.id]}
             alt={solution.title}

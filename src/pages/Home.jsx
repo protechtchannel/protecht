@@ -77,7 +77,13 @@ const Home = () => {
           </div>
           <div className="hero-right">
             <p className="hero-description">{t("home.heroDescription")}</p>
-            <a href="/contact" className="cta-button">
+            <a
+              onClick={() => {
+                console.log(`Redirecting to: /contact`);
+                navigate("/contact");
+              }}
+              className="cta-button"
+            >
               <span className="button-text">{t("home.getStarted")}</span>
               <span className="button-icon">
                 <img src={rightarrow2} alt={t("home.arrowIconAlt")} />
@@ -110,7 +116,12 @@ const Home = () => {
         <div className="empowering-content">
           <p className="black-white">{t("home.empoweringTitle")}</p>
           <p className="paragraph we">{t("home.empoweringDescription")}</p>
-          <a href="/contact" className="cta-button2">
+          <a
+            className="cta-button2"
+            onClick={() => {
+              navigate("/contact");
+            }}
+          >
             <span
               className="button-text"
               style={{ fontSize: "16px", fontWeight: "500" }}

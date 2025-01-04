@@ -22,7 +22,13 @@ const StabilitySection = () => {
         <div className="header-section">
           <h1 className="black-white5">{t("growth.stabilityGrowth.title")}</h1>
           <p className="title">{t("growth.stabilityGrowth.description")}</p>
-          <a href="/contact" className="cta-button2">
+          <a
+            onClick={() => {
+              console.log(`Redirecting to: /contact`);
+              navigate("/contact");
+            }}
+            className="cta-button2"
+          >
             <span
               className="button-text"
               style={{ fontSize: "16px", fontWeight: "500" }}
