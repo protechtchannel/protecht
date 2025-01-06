@@ -221,3 +221,6 @@ textarea::-webkit-input-placeholder {
   margin-top: -10px;
   margin-bottom: 5px;
 }
+.grecaptcha-badge {
+  display: none !important;
+}
