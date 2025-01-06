@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAxY6uVyBKLlY_0l8pLDLQWxJxdjc-0Yew",
-  authDomain: "protecht-e1530.firebaseapp.com",
-  projectId: "protecht-e1530",
-  storageBucket: "protecht-e1530.firebasestorage.app",
-  messagingSenderId: "946149229551",
-  appId: "1:946149229551:web:49bd0067ebda7365172c1a",
-  measurementId: "G-L3DNZQ04V9",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);

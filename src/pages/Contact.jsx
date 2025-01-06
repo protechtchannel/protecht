@@ -138,18 +138,24 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/company/protechtch/posts/?feedView=all"
               className="social-icon"
+              target="_blank" // Opens link in a new tab
+              rel="noopener noreferrer" // Improves security
             >
               <img src={LinkedIcon} alt="LinkedIn" className="icon1" />
             </a>
             <a
               href="https://www.facebook.com/protecht.ch/"
               className="social-icon"
+              target="_blank" // Opens link in a new tab
+              rel="noopener noreferrer" // Improves security
             >
               <img src={FacebookIcon} alt="Facebook" className="icon1" />
             </a>
             <a
               href="https://www.instagram.com/protecht_ch"
               className="social-icon"
+              target="_blank" // Opens link in a new tab
+              rel="noopener noreferrer" // Improves security
             >
               <img src={InstagramIcon} alt="Instagram" className="icon1" />
             </a>

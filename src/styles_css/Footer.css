@@ -229,6 +229,9 @@ p {
 }
 
 @media (max-width: 768px) {
+  .social-icons {
+    padding-bottom: 25px;
+  }
   .first-section p {
     text-align: center;
   }
