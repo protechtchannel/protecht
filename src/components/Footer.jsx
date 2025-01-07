@@ -26,60 +26,6 @@ const Footer = () => {
     return emailRegex.test(email);
   };
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   setIsSubmitting(true);
-
-  //   // Validate email
-  //   if (!validateEmail(email)) {
-  //     setError("Please enter a valid email address.");
-  //     setSuccess(false);
-  //     setIsSubmitting(false);
-  //     return;
-  //   }
-
-  //   setError(""); // Clear any previous errors
-
-  //   // Validate reCAPTCHA
-  //   if (!executeRecaptcha) {
-  //     setError("reCAPTCHA is not available. Please refresh the page.");
-  //     setIsSubmitting(false);
-  //     return;
-  //   }
-
-  //   try {
-  //     const recaptchaToken = await executeRecaptcha("newsletter_subscription");
-  //     if (!recaptchaToken) {
-  //       setError("Failed reCAPTCHA validation. Please try again.");
-  //       setIsSubmitting(false);
-  //       return;
-  //     }
-
-  //     // Send email using EmailJS
-  //     await emailjs.send(
-  //       "service_ojqm51l", // Your Service ID
-  //       "template_gj6986o", // Your Template ID
-  //       { email }, // Pass the user's email
-  //       "PqBvLKQGwI6cImcg_" // Your Public Key
-  //     );
-
-  //     console.log("Newsletter subscription successful!");
-
-  //     // Save the email to Firestore along with the reCAPTCHA token
-  //     await addDoc(collection(db, "Newsletter Subscribers"), {
-  //       email,
-  //       recaptchaToken,
-  //     });
-
-  //     setSuccess(true);
-  //     setEmail(""); // Clear the input field
-  //   } catch (error) {
-  //     console.error("Failed to process subscription:", error);
-  //     setError("Failed to subscribe. Please try again later.");
-  //   }
-
-  //   setIsSubmitting(false);
-  // };
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -109,41 +55,27 @@ const Footer = () => {
         return;
       }
 
-      // 1. Send email to admin
+      // Send email using EmailJS
       await emailjs.send(
         "service_ojqm51l", // Your Service ID
-        "template_gj6986o", // Single Template ID
-        {
-          toAdmin: true, // Explicitly for admin
-          adminEmail: "admin@example.com", // Add admin's fixed email address
-          email, // User's email
-        },
+        "template_gj6986o", // Your Template ID
+        { email }, // Pass the user's email
         "PqBvLKQGwI6cImcg_" // Your Public Key
       );
 
-      console.log("Admin notified successfully!");
+      console.log("Newsletter subscription successful!");
 
-      // 2. Send confirmation email to the user
-      await emailjs.send(
-        "service_ojqm51l", // Your Service ID
-        "template_gj6986o", // Same Template ID
-        {
-          toAdmin: false, // Explicitly for user
-          email, // User's email
-        },
-        "PqBvLKQGwI6cImcg_" // Your Public Key
-      );
+      // Save the email to Firestore along with the reCAPTCHA token
+      await addDoc(collection(db, "Newsletter Subscribers"), {
+        email,
+        recaptchaToken,
+      });
 
-      console.log("Confirmation email sent to the user!");
-
-      console.log("Confirmation email sent to the user!");
-
-      // Set success state and clear the input field
       setSuccess(true);
       setEmail(""); // Clear the input field
     } catch (error) {
-      console.error("Error during form submission:", error);
-      setError("Failed to process the request. Please try again later.");
+      console.error("Failed to process subscription:", error);
+      setError("Failed to subscribe. Please try again later.");
     }
 
     setIsSubmitting(false);
